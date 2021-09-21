@@ -584,6 +584,11 @@ a.header__navbar-sign-out{
     color: var(--black-color);
 }
 
+.blog{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+ 
 .blog__sign-in{
     margin-top: 40px;
     margin-bottom: 80px;
@@ -592,7 +597,7 @@ a.header__navbar-sign-out{
     background-color: #da254f9d;
     height: 350px;
     box-shadow: 1px 1px 5px #757575;
-    transform: scale(1);
+    transform: scale(.98);
     transition: transform ease-in 0.25s;
 }
 
@@ -667,4 +672,24 @@ a.header__navbar-sign-out{
     margin-top: 20px;
     text-align: center;
     color: var(--white-color);
+}
+
+.footer__aside-info{
+    font-size: 1.4rem;
+    margin-top: 30px;
+    color: var(--white-color);
+    justify-content: center;
+    display: flex;
+}
+
+.footer__aside-info-item{
+    padding: 0 30px;
+}
+
+.footer__aside-info-item:hover {
+    color: var(--primary-color);
+}
+
+.footer__aside-info-item + .footer__aside-info-item{
+    border-left: 1px solid var(--white-color);
 }
