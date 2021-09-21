@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/grid.css">
@@ -21,8 +22,8 @@
                 <div class="header__name">FOODAHOLIC</div>
             </div>
             <ul class="nav">
-                <li class="nav_item nav_item-line"><a href=""></a>Trang chủ</li>
-                <li class="nav_item nav_item-line active"><a href=""></a>Công thức</li>   
+                <li class="nav_item nav_item-line active"><a href="/"></a>Trang chủ</li>
+                <li class="nav_item nav_item-line"><a href=""></a>Công thức</li>   
                 <li class="nav_item nav_item-line"><a href=""></a>BMI</li>
                 <li class="nav_item nav_item-line"><a href=""></a>Blog</li>
                 <li class="nav_item nav_item-line"><a href=""></a>Mẹo</li>
@@ -140,9 +141,71 @@
         </div>
     </div>
 
-    <div class="grid wide cook">
+    <div class="grid wide blog">
         <div class="cook__heading">BLOG - chia sẽ kiến thức nấu ăn</div>
+        <div class="row">
+            <div class="col l-3">
+                <div class="cook__blog-card">
+                    <img class="cook__blog-card-img" src="./assets/img/blog/pizza.jfif" alt="">
+                    <p class="cook__blog-card-address">Pizza</p>
+                </div>
+            </div>
+            <div class="col l-3">
+                <div class="cook__blog-card">
+                    <img class="cook__blog-card-img" src="./assets/img/blog/muc.jfif" alt="">
+                    <p class="cook__blog-card-address">Mực chiên</p>
+                </div>
+            </div>
+            <div class="col l-3">
+                <div class="cook__blog-card">
+                    <img class="cook__blog-card-img" src="./assets/img/blog/chicken.jfif" alt="">
+                    <p class="cook__blog-card-address">Gà chiên</p>
+                </div>
+            </div>
+            <div class="col l-3">
+                <div class="cook__blog-card">
+                    <img class="cook__blog-card-img" src="./assets/img/blog/hambuger.png" alt="">
+                    <p class="cook__blog-card-address">Hamburger</p>
+                </div>
+            </div>
+        </div>
+        <div class="row blog__sign-in">
+            <div class="blog_sign-in-left">
+                <h1 class="blog__sign-in-left-title">Blog chia sẽ thức ăn ngon và lành mạnh</h1>
+                <p class="blog__sign-in-left-description">“Ăn Gì Review Nấy” chia sẻ ngay trên Blog để trải nghiệm ăn uống được tốt hơn. Ngoài ra, bạn còn thoải mái học được nhiều món ăn ngon</p>
+                <div class="btn blog__btn">Tìm hiểu ngay</div>
+            </div>
+            <div class="blog_sign-in-right"></div>
+        </div>
+    </div>
 
+    <div class="grid wide bmi">
+        <div class="cook__heading">BMI - Chỉ số khối cơ thể</div>
+
+    </div>
+
+    <div class="grid footer">
+        <div class="footer__social">
+            <div class="footer__social-icon">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="footer__social-icon">
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="footer__social-icon">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="footer__social-icon">
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="footer__social-icon">
+                <i class="fab fa-apple"></i>
+            </div>
+            <div class="footer__social-icon">
+                <i class="fab fa-spotify"></i>
+            </div>
+        </div>
+        <div class="footer__titele">© 2021 FOODAHOLIC | ALL RIGHTS RESERVED.</div>
     </div>
 
     <!-- Module -->
@@ -154,7 +217,9 @@
             
         </div>
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="./main.js"></script>
 </body>
 </html>
