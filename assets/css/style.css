@@ -444,7 +444,7 @@ a.header__navbar-sign-out{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: linear-gradient(rgba(0,0,0,0.3)), url(/assets/img/anh-bia.jfif);
+    background-image: linear-gradient(rgba(0,0,0,0.3)), url(/foodaholic/assets/img/anh-bia.jfif);
 }
 
 .slider__heading{
@@ -458,6 +458,7 @@ a.header__navbar-sign-out{
     text-align: center;
     border-radius: 4px;
 }
+
 .slider__title{
     font-size: 2rem;
     font-weight: 400;
@@ -471,8 +472,7 @@ a.header__navbar-sign-out{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(/assets/img/anh-bia.jfif);
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/assets/img/anh-bia.jfif);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/foodaholic/assets/img/anh-bia.png) ;
 }
 
 .slider__search{
