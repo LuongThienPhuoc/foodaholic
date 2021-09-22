@@ -445,7 +445,7 @@ a.header__navbar-sign-out{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: linear-gradient(rgba(0,0,0,0.3));
+    background-image: linear-gradient(rgba(0,0,0,0.3)), url(../img/anh-bia.png);
 }
 
 .slider__heading{
@@ -473,7 +473,7 @@ a.header__navbar-sign-out{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/assets/img/anh-bia.png) ;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/anh-bia.png) ;
 }
 
 .slider__search{
@@ -612,7 +612,7 @@ a.header__navbar-sign-out{
 }
 
 .blog_sign-in-right{
-    background-image: url(/assets/img/blog-img.jfif);   
+    background-image: url(../img/blog-img.jfif);   
     width: 50%;
     object-fit: cover;
     background-size: cover;
