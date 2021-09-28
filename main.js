@@ -270,12 +270,18 @@ function BlurCompairPass(e) {
 }
 
 var header = document.querySelector('.header');
-
+var footer = document.querySelector('.footer');
+console.dir(footer);
 window.onscroll = function(){
-    console.log(document.body.scrollTop);
+    console.log(document.body.scrollHeight);
     if (document.body.scrollTop > 100) {
         header.classList.add('header__color');
     } else {
         header.classList.remove('header__color');
     }
+    
+    if(document.body.scrollTop > 1350){
+        footer.classList.add('footer__opacity');
+    } 
+
 }

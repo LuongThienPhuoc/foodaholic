@@ -445,7 +445,7 @@ a.header__navbar-sign-out{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: linear-gradient(rgba(0,0,0,0.3)), url(../img/anh-bia.png);
+    /* background-image: linear-gradient(rgba(0,0,0,0.3)), url(../img/anh-bia1.png); */
 }
 
 .slider__heading{
@@ -473,7 +473,29 @@ a.header__navbar-sign-out{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/anh-bia.png) ;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/anh-bia1.png) ;
+}
+
+.slider-list{
+    width: 135%;
+    transform: translateX(-10%);    
+    justify-content: center;
+}
+
+.slider-item{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    padding: 10px 10px;
+    background: var(--white-color);
+    color: var(--primary-color);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 2px solid var(--white-color);
+}
+
+.slider-item:hover {
+    border: 2px solid var(--primary-color)
 }
 
 .slider__search{
@@ -483,10 +505,12 @@ a.header__navbar-sign-out{
     display: inline-block;
     font-size: 2rem;
     padding: 10px 40px;
+    width: 130%;
+    transform: translateX(-10%);
 }
 
 .slider__sreach-for{
-    width: 250px;
+    width: 90%;
     border: none;
     background-color: var(--white-color);
     outline: none;
@@ -515,6 +539,7 @@ a.header__navbar-sign-out{
 }
 
 .cook__card{
+    width: 100%;
     display: flex;
     overflow: hidden;
     height: 130px;
@@ -577,11 +602,32 @@ a.header__navbar-sign-out{
 }
 
 .cook__blog-card-address{
-    margin: 10px auto;
+    margin-top: 10px;
+    /* height: 30px; */
     font-size: 2rem;
     font-weight: 900;
-    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.cook__blog-card-address a {
     color: var(--black-color);
+    text-decoration: none;
+}
+.cook__blog-card-address a:hover{
+    color:var(--primary-color);
+}
+.cook__blog-card-border{
+    width: 20%;
+    border-top: 3px solid #757575;
+}
+
+.cook__blog-card-date{
+    font-size: 1.2rem;
 }
 
 .blog{
@@ -650,6 +696,15 @@ a.header__navbar-sign-out{
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: var(--black-color);
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all ease-in-out 0.5s;
+}
+
+.footer__opacity {
+    opacity: 1;
+    transform: translateY(0);
+
 }
 
 .footer__social{
@@ -693,3 +748,62 @@ a.header__navbar-sign-out{
 .footer__aside-info-item + .footer__aside-info-item{
     border-left: 1px solid var(--white-color);
 }
+
+/* BMI - Chỉ số cơ thể */
+.bmi.grid.wide{
+    margin-bottom: 50px;
+}
+
+
+.bmi__img{
+    background-image:   linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)), url(../img/diet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vmin;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.bmi__img:hover{
+    transform: scale(1.02);
+}
+
+.bmi__title{
+    font-size: 2.8rem;
+    font-weight:bold;
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bmi__description{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: var(--black-color);
+
+}
+.btn.bmi__btn{
+    background-color: var(--primary-color);
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn.bmi__btn:hover{
+    opacity: 0.9;
+}
+
+.bmi__card{
+    margin-left: 20px;
+}
+
+/* Blog - chia sẽ kiến thức */
