@@ -231,6 +231,7 @@ function BlurEmail(e){
         mail.parentElement.querySelector('.form-message').innerText = '';
         return true;
     }
+    
 }
 
 function BlurPass(e){
