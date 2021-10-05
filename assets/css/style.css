@@ -807,3 +807,61 @@ a.header__navbar-sign-out{
 }
 
 /* Blog - chia sẽ kiến thức */
+
+/* Mẹo vặt cuộc sống */
+.meo{
+    margin-bottom: 30px;
+}
+
+.meo__img{
+    overflow: hidden;
+    width: 50%;
+    border-radius: 8px;
+    transition: all ease-in-out 0.5s;
+}
+
+.meo__img:hover{
+    transform: scale(1.04);
+}
+.card__meo{
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.card__meo::after{
+    content: "";
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    position: absolute;
+    /* height: 20px; */
+    width: 4px;
+    background-color: #b3b3b3;
+    /* z-index: 4; */
+    transition: all ease-in-out 0.5s;
+}
+
+.card__meo:hover::after{
+    top: 0;
+    bottom: 0;
+}
+
+.meo__container{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.meo__title{
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.meo_description{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    text-align: justify;
+}
