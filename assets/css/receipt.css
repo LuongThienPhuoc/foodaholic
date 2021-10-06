@@ -1,0 +1,222 @@
+/* .grid {
+    width: 1200px;
+    align-items: center;
+} */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid_phi {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.row {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: -5px;
+    margin-right: -5px;
+    display: flex;
+}
+
+.receipt-type-title {
+    color: #3a393a;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 8px;
+    font-weight: 900;
+}
+
+.receipt-nutshell-list {   
+    align-items: center;
+    width: 100%;
+    /* //background-color: var(--primary-color); */
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1-4 {
+    width: 290; 
+    margin: 0 5px 10px 5px;
+}
+
+.receipt-nutshell-item {   
+    display: flex;
+    list-style: none;
+    height: 280px;
+    flex-direction: column;
+    transition: transform ease-in 0.25s;
+}
+
+.receipt-nutshell-item:hover {
+    /* transform: scale(1.05); */
+    transform: translateY(-10px);
+}
+
+.receipt-nutshell-item .item-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    padding-top: 50%;
+    border-radius: 5px;
+    
+}
+
+.receipt-nutshell-item .item-description{
+    padding-top: 12px;
+    flex: 1;
+}
+
+.receipt-nutshell-item .item-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.receipt-nutshell-item .item-heading .heading-titles {
+    color: #5f5f5f;
+    font-size: 18px;
+    width: 80%;
+    font-weight: 900;
+}
+
+.receipt-nutshell-item .item-heading .heading-icon i {
+    color: #3c3c3d;
+    font-size: 20px;
+}
+
+.receipt-nutshell-item .item-heading .heading-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.receipt-nutshell-item .item-heading .unmarked-icon {
+    display: block;
+}
+
+.receipt-nutshell-item .item-heading .marked-icon {
+    display: none;
+}
+
+/* Xử lý css việc đánh dấu icon */
+.receipt-nutshell-item .item-heading .marked .unmarked-icon {
+    display: none;
+}
+
+.receipt-nutshell-item .item-heading .marked .marked-icon {
+    display: block;
+}
+
+
+
+.receipt-nutshell-item .tag-rating {
+    margin-top: 12px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.receipt-nutshell-item .tag-rating .tag-list{
+    list-style: none;
+
+}
+
+.receipt-nutshell-item .tag-list .tag-item {
+    font-size: 12px;
+    background-color: #ebebeb;
+    font-weight: 900;
+    min-width: 60px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 18px;
+    margin-right: 8px;
+}
+
+.receipt-nutshell-item .tag-list .tag-item a {
+    color: #b6b6b4;
+    text-decoration: none;
+}
+
+.receipt-nutshell-item .tag-list .tag-item:hover {
+    background-color: #b6b6b4;
+}
+
+.receipt-nutshell-item .tag-list .tag-item:hover a {
+    color: #ebebeb;
+}
+
+.receipt-nutshell-item .rating {
+    display: flex;
+    font-size: 12px;
+}
+
+.receipt-nutshell-item .rating .rating-star i{
+    color: #fdc40c;
+}
+
+.receipt-nutshell-item .rating .rating-title {
+    margin-left: 8px;
+    font-weight: 900;
+    color: #7b7a7b;
+}
+
+.receipt-nutshell-item .cooking-infor {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.receipt-nutshell-item .cooking-infor .cooking-time {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.receipt-nutshell-item .cooking-infor .cooking-time i{
+    color: var(--primary-color);
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.receipt-nutshell-item .cooking-infor .cooking-time span {
+    font-size: 13px;
+    color: #7b7a7b;
+    font-weight: 900;
+}
+
+.receipt-nutshell-item .cooking-infor .food-ration {
+    display: inline-flex;
+}
+
+.receipt-nutshell-item .cooking-infor .food-ration i{
+    color: var(--primary-color);
+    font-size: 15px;
+    margin: 0px 2px;
+}
+
+.receipt-nutshell-item .cooking-infor .food-ration .icon-disable {
+    color: #7b7a7b;
+}
+
+.receipt-nutshell-item .cooking-infor .food-calo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.receipt-nutshell-item .cooking-infor .food-calo i{
+    color: var(--primary-color);
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.receipt-nutshell-item .cooking-infor .food-calo span {
+    font-size: 13px;
+    color: #7b7a7b;
+    font-weight: 900;
+}

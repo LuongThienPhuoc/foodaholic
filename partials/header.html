@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="assets/css/header.css">
+<body>
+        <div class="header grid">
+            <a href="index.html" class="header__name-logo">
+                <img class="header__logo" src="../assets/img/logo.PNG" alt="">
+                <div class="header__name">FOODAHOLIC</div>
+            </a>
+            <ul class="nav">
+                <li class="nav_item nav_item-line"><a href="index.html">Trang chủ</a></li>
+                <li class="nav_item nav_item-line"><a href="receipt.html">Công thức</a></li>   
+                <li class="nav_item nav_item-line"><a href="">BMI</a></li>
+                <li class="nav_item nav_item-line"><a href="">Blog</a></li>
+                <li class="nav_item nav_item-line"><a href="">Mẹo</a></li>
+                <li class="nav_item nav_item-line"><a href="">Giá thực phẩm</a></li>
+                <li class="nav_item nav-item-sign-up js-log-in"><a href=""></a>Đăng nhập</li>
+                <li class="nav_item header__navbar-hover element-user-js">
+                    <div class="header__nav-user">
+                        <img class="header_nav-user-avata" src="https://scontent.fvca1-4.fna.fbcdn.net/v/t1.6435-9/120264559_2561897020767572_9018281914969671379_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=3n8dH5GbvzUAX---gXE&_nc_ht=scontent.fvca1-4.fna&oh=e993be034244c5f41b9f70479bfdf6ed&oe=6167F8C1" alt="">
+                        <span class="header_nav-user-name">Phước Thiện</span>
+                        <ul class="header__navbar-info-user">
+                            <li class="header__navbar--general">
+                                <a href="">Tài khoản</a>
+                            </li>
+                            <li class="header__navbar--general">
+                                <a href="">Địa chỉ</a>
+                            </li>
+                            <li class="header__navbar--general">
+                                <a href="">Blog</a>
+                            </li>
+                            <li class="header__navbar--general header__navbar-border-top js-log-out">
+                                <a class="header__navbar-sign-out" href="">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            </div>
+            <div class="grid slider">
+            <div class="slider__img"></div>
+            <div class="slider__heading">FOODAHOLIC
+                <p class="slider__title">Chia sẻ hàng nghìn công thức và bí quyết nấu ăn ngon hàng ngày
+                </p>
+                <div class="slider__search">
+                    <input class="slider__sreach-for" placeholder="Tìm kiếm món ăn" type="text">
+                    <i class="slider__sreach-icon fas fa-search"></i>
+                </div>
+            </div>
+        </div> 
+    <script>
+        var header = document.querySelector('.header');
+
+        window.onscroll = function(){
+            console.log(document.body.scrollTop);
+            if (document.body.scrollTop > 100) {
+                header.classList.add('header__color');
+            } else {
+                header.classList.remove('header__color');
+            }
+        }
+    </script>
+</body>
