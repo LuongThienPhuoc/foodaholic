@@ -50,6 +50,26 @@
     background-color: #2c3b4b;
 }
 
+.title-after1{
+    position:absolute;
+    left: -15%;
+    top: 16%;
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    background-color: #2c3b4b;
+}
+
+.title-before1{
+    position:absolute;
+    right: -15%;
+    top: 16%;
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    background-color: #2c3b4b;
+}
+
 .divider{
     width: 30%;
     height: 1px;
@@ -93,6 +113,7 @@
 
 .custom-icon-meo-user:hover{
     color: rgba(255, 0, 0, 0.349);
+    cursor: pointer;
 }
 
 .title-meo-user{
@@ -100,12 +121,26 @@
     font-weight: 800;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.title-meo-user:hover{
+    text-decoration: none;
+    color: black;
 }
 
 .description-meo-user{
-    font-size: medium;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.314);
+    font-size: 1.3rem;
+    
+    display: -webkit-box;
+    height: 4rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    line-height: 2rem;
 }
 
 .custom-footer-meo-user{
@@ -236,4 +271,22 @@
 .contact-meo-end-btn:hover{
     background-color: white;
     color: #2c3b4b;
+}
+
+.like-action:hover{
+    color: red;
+}
+
+.save-action:hover{
+    color:rgb(184, 184, 6)
+}
+
+.all-action:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.518);
+}
+
+.reply-action:hover{
+    cursor: pointer;
+    color:yellow;
 }
