@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/logo.PNG">
+    <link rel="stylesheet" href="./assets/css/receipt.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+            $("#header").load("partials/header.html");
+            $("#modal").load("partials/modals.html");
+        });
+    </script> 
+</head>
+    <body>
+        <div id="header"></div>
+        <div class="container">
+            <!--Popular Receipt -->
+            <div class="grid_phi">
+                <div class="row">
+                    <div class="receipt-type-title">Popular Receipt</div>
+                    <ul class="receipt-nutshell-list">
+                        <li class="col-1-4 receipt-nutshell-item">
+                            <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
+                            <div class="item-description">
+                                <div class="item-heading">
+                                    <div class="heading-titles">
+                                        Grilled Chiken Salad with veggies
+                                    </div>
+                                    <div class="heading-icon">
+                                        <i class="far fa-bookmark unmarked-icon"></i>
+                                        <i class="fas fa-bookmark marked-icon"></i>
+                                    </div> 
+                                </div>
+                            <div class="tag-rating">
+                                <ul class="tag-list">
+                                    <li class="tag-item"><a href="">Chicken</a></li>
+                                    <li class="tag-item"><a href="">Grilled</a></li>
+                                </ul>
+                                <div class="rating">
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="rating-title">
+                                        4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cooking-infor">
+                                <div class="cooking-time">
+                                    <i class="far fa-clock"></i>
+                                    <span>55m</span>
+                                </div>
+
+                                <div class="food-ration">
+                                    <i class="fas fa-cookie"></i>
+                                    <i class="fas fa-cookie icon-disable"></i>
+                                    <i class="fas fa-cookie icon-disable"></i>
+                                </div>
+
+                                <div class="food-calo">
+                                    <i class="fas fa-apple-alt"></i>
+                                    <span>615 Cal</span>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+
+
+        <div id="modal"></div>
+
+        <script>
+
+            var bookMarks = document.getElementsByClassName('heading-icon');
+            var stars = document.getElementsByClassName('fa-star');
+            // Đánh bookmark
+            for(const bookMark of bookMarks)
+            {
+                bookMark.addEventListener('click', function(event){
+                    if (bookMark.classList.contains('marked')){
+                        bookMark.classList.remove('marked');
+                    }
+                    else bookMark.classList.add('marked');
+                });
+            }
+
+            // Đánh sao
+            for(var index = 0; index < stars.length ; index++)
+            {
+                stars[index].addEventListener('click', function(event)
+                {
+                    for(var i = 0; i < stars.length ; i++)
+                    {
+                        stars[i].classList.remove('far');
+                        stars[i].classList.add('fas');
+                    }
+                    for(var i = 0; i <= index ; i++)
+                    {
+                        stars[i].classList.add('far');
+                    }
+                });
+            }
+
+        </script>
+    </body>
+</html>
