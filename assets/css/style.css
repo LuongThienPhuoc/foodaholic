@@ -54,6 +54,11 @@ html {
     transition: all ease-in-out 0.3s;
 }
 
+.nav_item-line a {
+    text-decoration: none;
+    color: white;
+}
+
 .header__color{
     background-color: var(--primary-color);
 }
@@ -101,8 +106,20 @@ html {
     opacity: 0.5;
 }
 
+.header__custome-logo{
+    text-decoration: none;
+    display: flex;
+    color: white;
+
+}
+
+.header__custome-logo:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
 .header .nav .active{
-    color: rgb(240, 221, 193);
     font-weight: 900;
 }
 
@@ -697,15 +714,13 @@ a.header__navbar-sign-out{
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: var(--black-color);
-    opacity: 0;
-    transform: translateY(50%);
+    opacity: 1;
     transition: all ease-in-out 0.5s;
 }
 
 .footer__opacity {
     opacity: 1;
     transform: translateY(0);
-
 }
 
 .footer__social{
