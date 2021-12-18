@@ -79,6 +79,7 @@
         </div> 
         <div class="container">
             <div class="row">
+                <img class="receipt-fake" style='width: 100%;'src="./assets/img/food-avatar/food-receipt.png" alt="">
                 <div class="receipt-type-title">
                     Popular Receipt
                 </div>
@@ -924,7 +925,7 @@
                         More
                     </div>
                 </div>
-                <div class="mb-4" style='height: 140px;'></div>
+                <div class="mb-4" style='height: 100px;'></div>
             </div>
         </div>
         <footer style="background-color: rgba(37, 41, 50, 1);border-top:5px solid #ffffff54; ">
@@ -1030,7 +1031,7 @@
                 </div>
             </div>
         </footer>
-        <a class='to-receipt-detail d-none' href="./receiptdetail.html">
+
 
         <div id="modal"></div>
 
@@ -1075,8 +1076,6 @@
                     header.classList.remove('header__color');
                 }
             }
-
-            
 
             allReceipts = document.querySelectorAll('.receipt-nutshell-item');
             for(var i = 0 ; i < allReceipts.length ; i++)
