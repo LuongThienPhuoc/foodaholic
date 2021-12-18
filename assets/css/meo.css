@@ -8,6 +8,15 @@
     background-image:  url('https://kayapati.com/demos/cooks/wp-content/uploads/sites/15/2014/04/slider3.jpg') ;
 }
 
+.slider__img-meo1{
+    /* margin-top: 60px; */
+    width: 100%;
+    height: 70vmin;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)) ,url('https://giaoducnamchau.edu.vn/wp-content/uploads/2021/05/well-foods-microbiome-superJumbo.jpg') ;
+}
 .title-meo{
     display: flex;
     justify-content: center;   
