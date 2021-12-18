@@ -1,0 +1,573 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mẹo</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/meo.css">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <div class="header grid">
+        <div class="header__name-logo">
+            <a class="header__custome-logo" href="/">
+                <img class="header__logo" src="./assets/img/logo.PNG" alt="">
+                <div class="header__name">FOODAHOLIC</div>
+            </a>
+        </div>
+        <ul class="nav">
+            <li class="nav_item nav_item-line"><a href="./index.html">Trang chủ</a></li>
+            <li class="nav_item nav_item-line"><a href="">Công thức</a></li>
+            <li class="nav_item nav_item-line"><a href="./BMI.html">BMI</a></li>
+            <li class="nav_item nav_item-line"><a href="">Blog</a></li>
+            <li class="nav_item nav_item-line"><a href="./meo.html">Mẹo</a></li>
+            <li class="nav_item nav_item-line active"><a href="">Giá thực phẩm</a></li>
+            <li class="nav_item nav-item-sign-up js-log-in"><a href=""></a>Đăng nhập</li>
+            <li class="nav_item header__navbar-hover element-user-js">
+                <div class="header__nav-user">
+                    <img class="header_nav-user-avata"
+                        src="https://scontent.fvca1-4.fna.fbcdn.net/v/t1.6435-9/120264559_2561897020767572_9018281914969671379_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=3n8dH5GbvzUAX---gXE&_nc_ht=scontent.fvca1-4.fna&oh=e993be034244c5f41b9f70479bfdf6ed&oe=6167F8C1"
+                        alt="">
+                    <span class="header_nav-user-name">Phước Thiện</span>
+                    <ul class="header__navbar-info-user">
+                        <li class="header__navbar--general">
+                            <a href="">Tài khoản</a>
+                        </li>
+                        <li class="header__navbar--general">
+                            <a href="">Địa chỉ</a>
+                        </li>
+                        <li class="header__navbar--general">
+                            <a href="">Blog</a>
+                        </li>
+                        <li class="header__navbar--general header__navbar-border-top js-log-out">
+                            <a class="header__navbar-sign-out" href="">Đăng xuất</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="grid slider">
+        <div class="slider__img-meo1"></div>
+        <div class="slider__heading">FOODAHOLIC
+            <p class="slider__title">Đơn giản hóa cuộc sống hằng ngày của bạn
+            </p>
+            <div class="slider__search meo">
+                <input class="slider__sreach-for" placeholder="Tìm kiếm sản phẩm ....." type="text">
+                <i class="slider__sreach-icon fas fa-search"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid container">
+        <p style="font-size: 2.5rem;font-weight: 900; margin-top: 40px; margin-bottom: 30px;">Thịt - Cá Tươi Trong Ngày</p>
+        <div class="row">
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://fujimart.vn/image/cache/catalog/sanpham-tuoisong/nac%20dam%20heo%20cua%20BI-502x502.png" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Nạc Dăm Heo (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">43.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">35.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://tongkhothitheo.vn/wp-content/uploads/2020/07/suon-non.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Sườn Non Heo (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">60.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">59.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://dl.airtable.com/eWjylumSSXyld6J2uZL1_th%E1%BB%8Bt%20heo%20xay-large%402x.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Thịt Heo Xay (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">32.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">29.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://famfood.vn/upload/img/products/21012021/thumbnail_2_ba-chi-heo-famfood.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Ba Rọi Heo (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">40.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">41.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://namanfarm.com/wp-content/uploads/2020/10/cot-let-heo-rung-lai-tu-nhien-6.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Cốt Lết Heo (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">34.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">31.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://thitbosach.com.vn/uploads/files/unnamed.png" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Bắp Bò Tơ Củ Chi (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">120.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">109.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://chomienque.com/library/uploads/2019/11/ca-duc-trang-1.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Cá Đục Làm Sạch (Cá Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">49.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">39.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="http://product.hstatic.net/1000282430/product/xuong-ong-heo-huu-co-fau_grande.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Xương Ống Heo (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">36.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">35.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="http://vnhaisantuoingon.com/wp-content/uploads/2021/01/N%E1%BA%A1c-%C4%91%C3%B9i-heo.png" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Thịt Đùi Heo (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">43.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">39.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cdn.tgdd.vn/2021/03/content/Bo-tui-cach-phan-biet-cac-loai-thit-heo-dung-chuan-cho-bua-an-gia-dinh-1-800x486.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Nạc Bụng Heo (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">69.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">59.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://vnn-imgs-f.vgcloud.vn/2018/10/16/08/thit-bo-my.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Bò Mỹ (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">269.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">259.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="http://minhnganfreshfood.com/upload/product/xuong-ong-bo-600001kg10121.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Xương Bò (Thịt Tươi)</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">69.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">59.000đ</p>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex;justify-content: center; margin-top: 20px;">
+        <div style="margin-bottom: 20px;font-size: 1.8rem; padding: 10px 30px 10px 30px;background-color: rgba(37, 41, 50, 1); outline: none; border: none;"
+            class="btn btn-primary">
+            Xem thêm
+            <i style="padding-left: 10px;transform: translateY(-10%); " class="fas fa-sort-down"></i>
+        </div>
+    </div>
+
+
+    <!-- Rau củ  -->
+    <div class="grid container">
+        <p style="font-size: 2.5rem;font-weight: 900; margin-top: 40px; margin-bottom: 30px;">Rau - Củ Tươi Trong Ngày</p>
+        <div class="row">
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Dưa Leo </p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">15.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">12.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgWFhYYGRgaHRweHRwaGBgaGhweGhoaGhocGhwcIS4lHB4rIRoaJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJCsxMTQ0MTQ0NDQ2NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0Pf/AABEIAMIBAwMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAAEBQYDAAIBB//EAD0QAAIABAUCAwgAAwcDBQAAAAECAAMEEQUSITFBUWEGInETMoGRobHB0UJS8BQVI2JykuEHM4IWJKLS8f/EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/EACkRAAICAgICAQQCAgMAAAAAAAABAhEDIRIxQVEEEyIyYXGBM5EFI0L/2gAMAwEAAhEDEQA/AHlZSXS0TdTR5SD3i1rEsIlsUMeDnjxZNg1ZSB0FhrGPh+gy1CMeIYYe11h7hEtACzQsJO0aikrKsFLXhJSrdjCbFa8q9gdIYYXVXS53iss6nKmGxhXuMtoSTUvBlRPzG0ZqkcmaMpy10FC/Dan2Mwk7GHGJ48uwGthY9ISYimot1ETmMVTByBFIymlwTK4Ypttn6pQVhmSg1r+W5jxTzQGBJsInPD02c0lAPKmXzHr6RR1lRLEkC3mtHR9R1cvC8+Scu2Mq5AyXFjEhVywQRzG+F4rYlGPlbbsYErpjB7AXhcmVTimKyamKb2h9h0pnAVRcmNEw4Ob21MWeAYQshbnVjz07RPBgc5V4QkYUK6PATL87nX7RsmIEvk4Eb41iIvkBhTSISe5ik6jLjHoZr0Y4znqXAOiLsOpjFJITS+0OKymZALW16bwsqZDAWI3iWdyuq35YrRqlQHFoeeHJwAK8xLUFGwMNKaWyOGvFsM5KSdD2ylp6PLMZuGhbj0gAgjc3EOxOFgTzb6wrxqXmK9o78yj9PQWtCepw1AENteYWVlUb5V0AiknjbtGv9hlFLlRc8kax58sPPS0BIQYThIdS83Ufwqeddz2hvXzUQZQFy2FrADeMq+pCjKDYDYQon1qsh116Q0eMI8UYQYgqu5UAXIuO8eKfBJ1rqv1jGgmXqRroL2MWZxEIuu0KlF3yA0mKqPA5s0AN5bfGPtf4IQjV2vDCT4iRRe+nWManxMjDRhBxrFFfsFImW8MkaB9o6C5mNJc6x0LyRtFTWi6AxI4umsO0r862gOpIY2MLmkpq0M1Yno2IvDCnqrKRGopAEJEASpVrxFxfFGoDxCozMId0D+WBpuHDeCadAotASdgS2bq1jeNs4gV4xVyGF9oqpV2OaVOsTVfSEuSRFhIAmOFA0GpMFYth6sAQBE3LXJAUqWjsMmf4aqBYWA+kL59QfaqpvYQwkJkVRHmss3Aik3zin5QGxbU0oD5l93eH2FIji5hXkuLQRgqsXCjrAxWpL9mooWwoBcy772jOrxQhLDeHNS+VfhaJyrlZhePQzLg/t9bDVE8UcuWJ3h9hkljxrC1ScwFobTarIuRd+THBKcca5MDVBQnBWu5H6jeoCTGUHpEtMn53tfQEX/UOXB8rE5QNY2LM5JtrRj7MkZGtC6vrgpgisxMM2W+vWBqTDvbzADsNTF75agYeUFacguN10/EFzmDAN1APzhbi0vI1l00FvtGFLiHs5QV9XQkWHPmNviB9os58U4y8GGQk5mUcX1jbFJwUeghauLoVujHNzcWA/cAYnX3QEkMSNz8oX6sIwaW2zWhXX1VydYn62qPBjWtqNdDGVPRM4LkHKOep7RzN6sx5w1QHAO51/UNsQuF6g/SNXwNVle1LkPa4A29DCioqyEs28K3S32JsICKJfWEVbKXLoLGHNEpfQcwYmGB9HUQYOwvZFrSOeI6Lz+77bIflHRY3FCvDKm+kb1DkOI0kYZkcg7RpMVc6+ojlarTH6QUbhNYDSX94oqyQCgIhZLUWjocKdBPbp5LwBeG7r5IBkYc7C+ijv+oSSpmNFw52TOSFU7X5gKUuY5edoOxKpOVUvsLQb4Uo1JZ2/hhYuM8vBCp7DsOwr2Usn+I6mNpEoOpvxGGNV5PkTc6R7pyJUsLck2uT3O8N8iWLE02ulVBXozxOoRFsii1ol6+qLKQvyhhiMy5PeFOXWOL6zk7XQGrGmGzM6A88w3wZAs0GFOEycl+h1hvLOVgY9DCk0pGGmMVYtlEBSXzrBwo1bzEx4m0ypsYrNttthsUpLs+YjQXMKa6ttc9YoXklg3oYmZGGvMmLoco1Y9LR52bHKUkgSsZ4PTjdhcDU9zHzFK4sT0gupYImRYR1EM24x4hSBpcyzgniK2mqRKkhwbNcEjSx7GJhqfKVJ3Ma4lVD2ZUkjTS2uveKYMkoNitsosbniYiuvA+hiQrMQJa550J/zAb/ABFoZU+H1LyUKAEEaXaxjDGMNyLkYgsLFiBpmsL2iublJOTQJdWCqrgoFBPtB5e/oe0OKjDCstZdwzkm1tiSMx9ALRnQzP8ACli2qZ7HoCdhDTCg3tGd9CRlUHheT6k/QCJ4cSr+QpEaaDLMAcHfYbfExfz6BfYoAoAA2GwhfW04d1Fr3IBion2WWegX7COvDitSTGohPEM+yBF36ROyaB387C46RZzcLzguN4XOuRCDEPpO+TA42KKmSZaF1NrCFtN4odbBV15Y6mH2LreR8IlpVQq7AQn4itUXlLW5kUk7jrHRHLiLR0b6v6DyKETTNcCDxgOmcm1tYWYVo+bkbwZWYuzNkG0Ph4OLlPbGas3m1dhYwueeCdIHrp+UawnSu82kJObbD0WdM3kuYKoKYzm8xIUdOYU0dRmlaQ3kVolyr34hZVKacukhWI62WM5A2BMHUc0y0Nt2jpUkP5+DrHpRcnoIhijJScuvQEvIGtRqSd41XES63sfLoTxCydOGdu8NvB9QBOZCLq42O1xBljWaSUn2G2mjFUM26qL6XvwB1MDmiZXAuG7gxVV9IJZKyEAaYNbbWH2GsRGOyZ9Myljo17WjS+LLG6W/YJMbTM1wi8QxlE5fNxE3hlcWmBy24APTTaKJ3JUxfE1GLYY9HDFWDBFMGWc+80JJdNnYW6xRZwoAtrtc9YGGbnbkYwpqghiL6Ro4K7fxQoeptmbqYoQoyqew+0Vwvna9FZR4xT9iqopcxPWFNRhkx3AvkRSMxPNuB1iqpqbOTxrqYW4wCjEE9xfkQmeHCPOvJO+KFGNMgZQhNrC9978whxWeQAAYa1aFhmAuRAWD4a1TUorKcgOZzbQAa2J4vt8Ynhbyy62xez9LwhcshLi1lH2iT8QNmfubxZVrZUOVb2GgFvlEfRgPUEPYsASbbLawC+tzHf8ALklFYl2aS8BuDUN2QHjzH4a2+0McerQi2yk9xAjzCjXBtGL1Oe+ciw5JiMvtx8E6DWqJiZiDM+VUe/Ym8bTJrLLLe3uynzS2uDbsb2J7QTUOMxKNcbEj7QixmZaxG537iIxpaYvGldlP4Zx7OfZOdW909+hj7jGHOxNiBE14fpkDpOL+498ljc6cHpeKcYh7Z72ygcRaM048X/Q0boGmIFRVfa1jH51UIVdl4BPxAMfoOOzgqgHkgRI4zIAswgNro0loA9r3joGzx0JxJn6EiWNxGE5NbxpKe0H0zowbPuBoLb9Y0Ypl7JPFWYmwgOgpSzheTtD3EaRXaymxgGhw+Yrgkjym94RtVYB9JpBIUKWux4G0FPhzTRlVu+m0Jq3Mbm+sA4Pi7I+VmI+MRi+b/SJOW6ZWkFECMLEadoBFTYNGE/Es4N7262jORNTKcwuevWHnO1Q9iqbmYkwwwklJiPexBF/SPM3IdtI2ovfX1EaM4xV+g2mj9GlupIbm1vhvEV/1Dme0aWigkLckgEi54h3h0/yPodDz6QDIqjMLkcNrbjpeOx5+eP1YveiZw2SqjW/yh7JfNcAWEKMRk5Kgva4Iv2vsY9Ji7BhZdPvHLqts0YlDQSiDe2sGTxYen33jxTX9L666fOPjm5sNovGChHXkz3oTLKZn1GhP3MVlUuVfQQLnS6IB5iR+4KrZwUgnUDjrbiHwY1BNtjtvyGUMvKgvudTCbGnWYNQCAbL+TC6vxZ2OjWHTiC6KYPY3n2FjdepHeFzfIjki4R0vbFcrMqSRcHpFBhdOEliwAvcnSJOnr2eeiS9AT9OYpsQq8q5VNuL/AKg/C4xi5egxEuP46c3sZOrHQsOOw/cZYDSBC/LWFz6n/iPkrB/8QOh63B4vyIcSpaouRfUnqeSYEYSnk5yFV3bAqjmE7Sc9gToDc94dVCaX+B/ESVdVOmbKN+YTOt7GfQzqkBPl9IQY/gs9pft1UFF3OYXGtr2h7RymCLm946n48QfVNmopijfMo/8AkIaEE9v1ZqtH51R1TIRaKbBKk+/wSAe9+Ym62mZGIO/baH+AyGsGbRRt3PWIbbVCx7o8+KHLuijreAdG8p1gmubNO9IV1DlZw9RDydsZm/8AcDnUIdY+Ray8QAAHQR0Jb9gpCKU/EN8EVbljxtCnBaX+0OUU2C6seg/ZijxWkl0yDKTcjW5vsN4ok+PLwhnolfEVfecCOP3B1ATPOhyqLZj+B3iSr5pZix5vDzAKvMoXa3H3MIoqXfkkmUqSEUWCC3fUn48QtnYIiOk57FSWsOdPdzD+toZO9wBHuuqgiqpsTbW/EHKo442YTVmIZrqAMvS0DYXIDvlIzA35It3uI6uZA/vBbi46aw+wbCSssOWGuo04O37jljybsKtOybq2WW5RgVINtTf01h5g1JZg7cbRJ+M5lqjfUqt/UFh+oq/DFUs2mRv41BU9yv7Fov8ASuPL9FHT2NK2dlRyIkZU9hnKk2O/4iqqyDJe/Rfrf9QlmYIUQzGaylMxHO1wIlHlKCT8E5IAoqo51B1Vjb5xT4dhK+0UnYG8ISUp5YNgZjC5J4vso6Q88Ez2dHd9QGyr62ufuIv8dpuqNGXgeVMsHUHTaA5qZSLbRvJqQHF9hsOBG9fUJdbWJJHA1uY7KjJXex1oHoKcGYHtsD9Y1rkDA32g5iVFjYdhx8om8eqybIjhf5m3PoBGytQhTNIyaQpYdBrGIBqJyywbDnsBvBIrUEjIo8wtmNgM0L8EnWmu3QfePOko/USu12xBpVqlOf8AD0YaX5gGprTNCZRdixFh10gLFJ5YmCvCZUGYzkDKL3PF97etorGdycVpDD5AslLs3cn8CFmHYl7SaRsMpyj0MJ8exRprWGiDYde5gukRUeXbfQE9SwsfrBlnuaS6TN5HFa/lYf1rE9iaDIQIc4jUKveEtS4YG0NkmnKkwsJwyqzyVJ3HlPqun6j3U1DFGRADaxYnYcj4ws8LyTMd5Y0FwxPQa3P0gfxJMeWhRGbKxO27dL2h1Kkr66DHYgxDEXDe9ex7WirwzO8lG2LC9oi6ShN8z62Oi8fGKNsXZANBpA+xDSa8G6YVNZyxFgOnMK5kq88djrftDRPEhW2mphTjLG3tU35t35hXFP8AFkx//aU/mEdEF7c/zGPsD6T9ms/W8Dp1kSzpYsSWPpov0+8Icar87te9hoPjDOvqsqRMU87zBjySfkbfiNmlUaQX2Z1GAvk38t7gGwaCMJpChjWpqyRvGdPiZVdFBa+5/URw5W/yEreiop0sLnc6Af1xCTGJ5zRvh9UWS5948wLicouC3ziueskU14GcdC90WblBOoP0i5SpCywCfdAHyFo/Ni5VtN+IqqWpE2WGe19m9RE1ajSBF+BB4jkZ5hfLoQLfCDvBjlEdSNM+nyF4bOgdbaER7padB5NBrcW0MUxt/ix1+xrRSvaFlI8thm+BuB8Yw8VTvKspRczGAsOgIv8APaGcllkyzf1J+0B4hh13RyTrY9CLC+nSKziowdf2LJeiGx+cS56CLTw8FlUSdWBb4sb/AGsIV49lZSgAAOmn0iheh/wEQnKwRR8lA1jn+NK4txXQkVTETVvmJgvCJ/tKhL7Ldv8AaL/qAXwo5iC47kDWDKekEsEpcnk8xWEpRabRUcVFdmzNxx6cRMTpZJve5NyfnDCu1l5b2uAPSFyyFA0JJ7m/wtF8ic9sSRrTIHBQWBsfNfc20X5xpR0hRSx/iG3ItB9IQABYC3z6ax9qxx1jmzY0lyRkidqrkmPFMujXvYjX8Q0NCWvpAM5wENhHLHl2xqFpQ5lG4JGvxhvNm2dfUH5QtoCC+vFzDGkw9pr5zoohlilKVRMkecUqrephNLqiCehhli9NlYjjiE0mWWdVG5Ih4xptPsI78KMytOfZWTJfqSQdPh94xxueLhb7C8MJk0ID9oka2eSzX5is9pRA9I1lDQtA9SSwtzG9NLdlaw0Xc/qNMMk55hzbDWNaS/g1Ay4e7AE6Q6wqiDrZ9V29Y6ol5Ta+h2j6KgIRc2EbktNAqiilUNOoACJp/lEdCf8AvlByI6Kc0GkO52Fe1CoNCef3CXxPha07SUXXyG7dTm1NuN4t5bKhZ2F7CwHJ9Ii8bmPPdmKtcXsLHQDgQ+WCjB+2Zon2mR1M17gR4CE3gvDUZDqvvcxwqKoEVbCsKMxjlVCQOg29YZu5Q2cZb9eY9yK5kUILC/T8x1U+dGU21B+BtpbprBeVJqh2wCbhCuwKtb6j4QzWgCIVtva/fiFnh6Y1zmimlWdbc7R0RipGcUmLqOmy+kG0VIGf2hGi6L68n+u8faghFsNToB3YwwRQiADcD68mKxjH/QD1JKOxRlD7G1+nNo94o4IBG+otA1FOCIZn8TaA9gf6MAYpWm2aFzSvE15YGJsVN4pzVF1Unp+BEjXPmZAOSB8zFxWS0ceUgHgjYkdY5vhRai9/0BChJd3ZjtfSPc/EFQWvr0jGeXUEW8339OsTM1nLsbG/oYtOTS0Mxj4mnH2Qy7ll37wNQUhl5HzjOCGAtcAj1gnE6dnQHhcrH0Fv3AE6fY2hnKwNJjmiqgxtyDqPU7jtDaxMwdACfjcAfmJDDZhMy46C/wDuH/MVQm2F4EXa2ZE74txd1dZEu+ti5HfZfl94x9tpYwtr3JnFzuWvDjC6fO7ltsv3hX960U04g9BLvNUcMbRbF1RQqjWJyloWRwdDbb5QyrMQSnS7G7kaC+p/Q7xb4+otsRGdRT53ynXkwE9GkpgRueu8MMELPL9o41cm3+m+kETsGLtnY+gH5gSgm+RhDNkPMayKWPQC/wA+kCV3hiY5VvIh5BP/ANb6xSO05PKrlQOAFA+QEC1UyZlPmGYdeYDjC7d2ZqwDDcKeUrBmUljfQHp3j7TYC6Xsy6nvtCNfEcwTMhAtfXQ36QxbH3W1gpHxgP6XUk9mTQfVYDOcDJlJDA+9bTncQq8QYHPCKTLc2a91GbT/AMbwfL8UPa9l4+pA/MN6fxeEF3Q2093X42h8cML6bN2fnK07nUA/KOj9i/t9O3mNrnXW0dFvoR9moHofElMF94k8nIY+zfF9KpsSf9h/UfnHhoPMBUAs2bYC5ispfC6hs883trkB0/8AI8+ggxy5ZaSRRpIKmyKaoDzqdTmGrEKwU9dCLZvSPtfKkMitYo/OUXB66dI+V3iJEHspKhraWUZUHp1+EA1k05dP/wAjnzOKuqfsToXVCKr2Vi2mptbXoBHuVMA0MZpTs2wsOsea2ndFBA3J19I4JY3LaMl5YegU+6LEQxw9xcm/EIcPU5STzDGS+UHuCBFsKlFbMxnXyvdfofvzHuRMM1lQc/bk/KM8LqRNkkNuLqfhz8rQd4Xpjd3Yajyj7k/aO3HHlNV0zAeMkSyV2AtYduIR4hNukPfEiGZMYICSi62HTU/eJSouRaOfN9s2vArQwppKES7HMwQuegbSy9za5+UHSp1tR8olJ+NCSqgAXGmvPWKGVVB0VhswB+YvAjFJWinBqKYTMxAEefS2kJq/EGvoYGqJTh2JvkJP16QtfMrEHiEak+yU1QySvbrG70wmi48r/Q/qAKdbw8o5HMNFWImzDDKRk0tc7t27X7Q0mnSPf9pCIVtdmPTg6EmMJjaRTikiq6JnGJeUXG94eeHyzJmYWv8AYR5rzJlgNMIPQHr2EM6A5yLbWvaNjg1oa9UY19SyAlFBbi+gHrElT0E+fUqJhLZzqw2CjUgdNPvFDirMZuRd7D66w9wTDsik7sdz+BAhzlNx8IydIOlKq2AFgBYDpbaC1qVA1ib8QYp7CwBBc8duSYlcT8TPoo0uYq5tS0hS1xTFJY0UXbtEbjmLsg2IvG9K3mU9YmvHFR/jBeMo/MKk8kthR2HDOWc733g5kJ0jPCUy0/qbwRTi+sSyx3o1AddMyKvUkfTWGLPmW294nMddmcKOIrcAljKhb3rQzXCKYdVo6ZKmE3yNxyOBbrH2KaWBYR0S+tIFG74hTUYMqSgzncLqST/O/wCI9tU3QF7ZjxwO3eIpqjzAngwwfEswij+XKS6r9DUfMUqAjZwBBlDNzorc2iaxKfmUwd4dqvIVO4P0MTxdOwPsZ01UCzr/ACn6QVOQuhsDbiE7pkmk33F7desVWD2eSw6E/v8AMWxR5NoxNTJuRY0znKLHWE/ieaUYKNPNB9DOJdLAnUaCEaaH46TGEl3RC6G1m1W3vdbxdYIwaSrDZtY/Msbqnksy2OViSL6bx+keHZZSmlq24XX462+sdXw1UnfopliklR0ghS5A1LG5P29IgvENWgdlSw11I68gRS4pVHPkDZczWJ6C1zb5j5xPYjg8k38uvUE3iWeXLXogqvZK4nRidYIPMNh1h/QoyS0UnVRA+G0fs2a7Zv5b9I9YpUZEIX3m0HxiKulGx3K1QnfGWd8t/Le0VWH4KZ8sO/lsLK3LdPVe8CeEvArkidUgqg1WWdGbu/8AKvbcxQ4ti13CSlvxmA8oHRev2joliUdy/wBCNXomJ1A8p8rW9QdP+PSG1ApjqiTkcKTmJFz6ngxtOUINDbrCxjViOPoIp5+XM1h04/rmFk2fC2txhXBRD7p17x4M+4HoIScn0MlWgLFVDzUUnm8XnhxL52toMo+QJP4iFSzTVa2wMfo3hWnyyc7cksPsPtF8C5NBZ6pMFX2jzpmlzoObAAfAaQxqGbJeWotxb7gRGYri8+onZEISQHAuN3ynUA/y+kXVKbLl6AD6RaEoNuKAfjvipZqPnf8AjJtrwOO1oUz6CY+RwLi4h9/1Bm5p2QH3bm3+o/8AEDYPOJlFCdRqD2jml9ttGcdDSQ1soO/6ib8USDMngbCwJPzhqtQR5W/r0gDF5wZl9P6vEseR3+wXXQI0whQoNlH1hlhYslzzcwjmzrmG9M9pY9IeSFj2eHVMzOfeJ+2kNZEzKq2NrCEyPqBlBvuYMmTtIE6aHD//AFE40tf4x0JLx9iP00bY6xOhKXZdV6ciA5INtYqHkG2+b7/GAZlODeHnhroYnqgx2DzCs4CxAII/r5QW2H5XUnVb8w1n4QRaYotbkdO8aEXWgVszxVrIG6H7xR+B5odZi9lb7gxM1LZ1KmHfgPyTyvDIR8QQR+Ytga+ogvon/wDqBSMs8AAnNawAub7WEPfD1B/ZpQebrMI0X+W/F+vU/CKLxNLVcs3Ldh5RprrtrxCAzbsLxSaUZNGcrjQ3rqVHtnUNaxFxsY2XEQcyKe/7tGCzw6Aj+raQoZJgcMik2Pw9Lwrbi9eQWe69Mzlr62sOx4ML3qiwsR5hDmoS+hEZNiFPIIW3ne9tLsbb6naJyx8pd0YEw/AZs4g6Iv8AM2/wXc/SHrpRUNmmuGmcZvM5/wBCjb1+sTtdjs21k8g6jU/OJfFF86u5JLaEnUnXr8YbHkx49JW/bMimxTxe9TMSWgKSywuL+Zh/mI2HYfOMqupzX4ttAMt18vlF12Nh3j67Xjiz5ZZZWwNhtA5dwTxuY84okyY5RL25P4jsPuFZuAbXj1T1jlwqi5J6/MmLwmuO3/IUYUvhx08wS7HuL/eAa6ndD50ZfUED57Q/XxLKSaZbhwwIAIUsGv0y689Is6Yqyi4BBGzCx+TaxeOJSVpmej878LYK1RNudJae83X/ACjv9ousUmjJ7JNFtl8vAtbSDAqS1IUBF3IUADX0jLMHIsBY/aHf/XHiu2K2SGHMrVIS1klrcjvwIsKGpDZwO35jCtw8Jd0AuRbvC3w+5zTCd1AFvW8c6lKGRJrsFn5z4tnf+7nX3BsPTKLRr4WzTEdApNjmU6b2Fxr/AFrBni+kVqkzGAy2FxrckaAem0Y+G69VqEQWCkFbcXIJ+4ilqWkWc1SQXMpQ4BUgdVO6noDyIn8Wksh84sOD1EG1dW0iocb5XOh5F7j6GL+kp6avprABgRqP4kb8GNhw237JH429Uo91fif1DKoqsqfCPXiPwxMpJiq4uhPlcbHmx6N2gGpcbGKzik0jBdNNvYx9mVQDBYDppmsenXM20ScVezDW8dDKjSXkW+ptH2Ic0aylkzuRqDHVErN5l3+8EtSLk8ikHpxH2ioXBN7KO5/EdnFvTQ9iZ8rDKw/cMsGxFZXlmDMnDWv/ALh+YYVNDKsC5FzppYGBp0umQXY6ddfxAjBxd2jDhcNop/mXLf8Aytb6RrR4FIlOrozArt5hbUWsdO8JZJp1GZbLcbi+0YyhTM1la7E9yb9riKwyRcul/QCxxWQroQwuN/lrETPqpCtuD8zF+vmUX5A3iIrsEJmOFta5I0662h/kxdqSRjGXiMtjkQW02tYfCAsUxqdJVVlqpDNqSCbadB6GDJeAC/8A3LMOMuo+sdUYb/nv8P8AmOWpdm0IKbFZyEvNcvf+GwAUdrCHuEy5dT5ypKIdmBBzdu3pAVRSuNlVu2x+sNcBnZZRVxkbz6E62I0276RoK5fcF7NpldLeZ7FFLW3ypdF7E7CB6rwrLqLBnKAbWF/lDagRFGVAADcm3oCL9dbx6xK9gUAOuo5IuL5Tte19DFnBNcmATzfAzWBlT1a3DLb6gmFOLYZMkWDI1v5gLr8xFdhFbKdjLLZJoHunMjEdVzWJHpDdvaqQCFdToTswFtyNm19N4D+HinG1oB+ds4WnA5OvxJ/r5Q88M+H3yZ3BUt1Hmy8WB2+MU64bILBwi5hqNNj1ttePWJVokoXZWKjU5VLH5CExfAULc3aGv0Z0mFSZJLKihjqWIu5/8jr8IXY3XIgLswW3JNoWVfiZmRXHkQ8sLtqDa3HryIlcVmrNsztexBtl59mQSeCA+U27bRaeXHFKMdGpltg2OSaosmzgbEWzA8jv1EMZcsSrJ/CNB6R+XpNKKjqAubNYqliCJhsyt2Glr9Ip8M8ZgqFqFOYX86gH0JHMRlOMtPT9gcSwOxBNxEtOqfYzs38LDK34PzhpLxRXUMDoQCLi3G9jEv4lqgVYxz5pp1XYlGXiOWHueCLRISaV1e4QkgqQQNN7g3h/Krc6AHcRiZlvSFUqTYUGYxh0uayTnuM62IBtqP6t8IR4ZWzqKpzSSXQkAp/MvfuODFHQkTZLpyDofkf3HxQiXVF83Omvxi+NzvkhmWrPKrZNiujDYixU9+hBiKxDw8EJDIHA2Ol/lBVDiEyU4IGnOo17eveKOoyzUDDkXBG4i745VvtCn45iFMJczyiynjoekF4fKzEd4pcbwtZl1YZXHut19eoiaw9jKmZXGqnURz5Lr+AMYzKJwTZWtxHQz/vResdHJz/QeJWJsYDxGYQuhI+PYx0dHrS/EbyK6ViV1N/Md9Y0k+844sNOPlHR0cD/ACCjzUbfCK/wVIQU6sFUMSbtYXOvJ3MdHQP+P/yMz6KOEsnd/U/mPkdHr5/AjEVcx9uNeDHNzHR0ckemaJi0eF3jo6EfYwXg587ji20Hy/eHrHR0Wj0jM28Ryl/wzYXGxsLj0PEOaA3Rb9I6Ojox/kzC/HTYaaacQF4Rnu6vmZmseST946OjL82YjvHiBZ9lAA7C32hHUbCOjo8j5H5joGPuwXR7H0j7HRgLsrqj3F/0j7CJbGj+Y+R0R/8ARJgGH8wV09RHR0P5YUNMP99vT9RtXMbb8R8jo64D+CQrqh8/vN8zH6Z4d/7Lev4EdHQcf+Vf2J5Bsa91fUfmIrHv+8P9H5MdHQM35MDMFjo6OjkKH//Z" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Giá Mầm Đậu Xanh</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">49.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">41.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cdn.daynauan.info.vn/wp-content/uploads/2018/06/kim-chi-han-quoc.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Kim Chi Hàn Quốc</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">49.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">39.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://salt.tikicdn.com/cache/w1200/ts/product/97/45/63/5c1dcc632c16304bb42e61a1517af784.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Khoai Tây Bi</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">40.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">41.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://rauxanh.net/wp-content/uploads/2019/06/rau-ngot-nhat.png" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Rau Ngót Nhật Bản</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">34.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">31.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Bắp Cải Bẹ Xanh</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">120.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">109.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cf.shopee.vn/file/6b3b5f3c6183824d75209e970521b9b8" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Rau Muốn Đồng</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">49.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">39.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://vinmec-prod.s3.amazonaws.com/images/20191103_144720_797748_mang-tay-xanh-cua-m.max-1800x1800.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Măng Tây</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">36.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">35.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://vinmec-prod.s3.amazonaws.com/images/20210604_012542_237817_qua-dau-bap.max-1800x1800.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Đậu Bắp</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">43.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">39.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cdn.tgdd.vn/Files/2017/10/30/1037058/9-cong-dung-va-han-che-cua-ca-chua-doi-voi-cuoc-song-hang-ngay-202103142026330054.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Cà Chua</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">69.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">59.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cf.shopee.vn/file/738f55d0fe34151aadb6ee7fe94559c4" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Ớt Mỹ</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">269.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">259.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://vcdn-suckhoe.vnecdn.net/2019/09/03/benefits-of-lime-1567497013-4844-1567497248.png" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Chanh</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">69.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">59.000đ</p>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex;justify-content: center; margin-top: 20px;">
+        <div style="margin-bottom: 20px;font-size: 1.8rem; padding: 10px 30px 10px 30px;background-color: rgba(37, 41, 50, 1); outline: none; border: none;"
+            class="btn btn-primary">
+            Xem thêm
+            <i style="padding-left: 10px;transform: translateY(-10%); " class="fas fa-sort-down"></i>
+        </div>
+    </div>
+
+    <!-- Nguyên Liệu -->
+    <div class="grid container">
+        <p style="font-size: 2.5rem;font-weight: 900; margin-top: 40px; margin-bottom: 30px;">Gia Vị</p>
+        <div class="row">
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cdn.tgdd.vn/2021/02/CookProduct/13-1200x676.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Đường</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">15.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">12.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://lh3.googleusercontent.com/proxy/7Ul8zpFw_vU5J9uhCGxIMcwYg4WNTxBMkmKe9CDEEPc6ZcbHdJE5lflK8my9Kcr-VWApU1KUlrpKyUjfE9sarW98fsTMp8J4qSg8bfO4mJREuJnT0PB_B-s" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Tiêu</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">49.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">41.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://maisonmando.com/wp-content/uploads/2020/08/bot-ngot.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Bột Ngọt</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">49.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">39.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://vnn-imgs-f.vgcloud.vn/2020/10/03/20/da-den-luc-nguoi-viet-can-tinh-toan-luong-muoi-them-vao-khi-nau-an.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Muối</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">40.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">41.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cdn.tgdd.vn/Files/2020/03/26/1244723/cach-lam-ot-bot-han-quoc-don-gian-tai-nha-ban-biet-6.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Bột Ớt</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">34.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">31.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cdn.beptruong.edu.vn/wp-content/uploads/2020/03/muoi-ot-xanh.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Muối Ớt Xanh</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">120.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">109.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://vietmartjp.com/wp-content/uploads/2020/09/nuoc-mam-nam-ngu-750ml-gia-vi-viet-o-nhat-vietmart.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Nước Mắm</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">49.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">39.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cholimexfood.com.vn/wp-content/uploads/2019/12/nuoc-tuong-thanh-vi-500-ml-FILEminimizer.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Nước Tương</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">36.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">35.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://blogimg.goo.ne.jp/user_image/2d/41/025bec855362930deaf2cc99166c5dcf.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Tương Ớt</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">43.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">39.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cdn.tgdd.vn/Products/Images/8271/194595/bhx/sot-tuong-ngot-lee-kum-kee-hu-240g-201911071133375319.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Tương Ngọt</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">69.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">59.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://giavivietan.com/wp-content/uploads/2020/01/B%E1%BB%98T-CARY-XK-5-GR-10-GR-576x800.png" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Bột Cà Ri</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">269.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">259.000đ</p>
+            </div>
+            <div class="col-2">
+                <div style="border: 3px rgba(0, 0, 0, 0.24) solid;border-radius: 8px;">
+                    <img style="height: 130px; width: 100%;" src="https://cdn.tgdd.vn/Products/Images/2806/77238/bhx/hat-nem-xuong-thit-heo-aji-ngon-goi-900g-201911071353456343.jpg" alt="">
+                </div>
+                <p style="font-size: 1.8rem; font-weight: 700;">Hạt niêm</p>
+                <p style="font-size: 1.4rem;text-decoration: line-through;margin-bottom: 3px;color: #b7bcc8;">69.000đ</p>
+                <p style="font-size: 1.8rem;font-weight: 900;">59.000đ</p>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex;justify-content: center; margin-top: 20px;">
+        <div style="margin-bottom: 20px;font-size: 1.8rem; padding: 10px 30px 10px 30px;background-color: rgba(37, 41, 50, 1); outline: none; border: none;"
+            class="btn btn-primary">
+            Xem thêm
+            <i style="padding-left: 10px;transform: translateY(-10%); " class="fas fa-sort-down"></i>
+        </div>
+    </div>
+
+
+    <div style="margin-top: 50px" class="grid contact-meo">
+        <div class="row">
+            <div class="card-support-meo col l-4">
+                <p class="contact-meo-title">
+                    BUY GIFT CARDS ONLINE
+                </p>
+                <p class="contact-meo-description">
+                    Provide with our Gift Card to whom you most want and is sure.
+                </p>
+                <button class="contact-meo-btn">GIFT CARD</button>
+            </div>
+            <div class="card-support-meo-between col l-4">
+                <p class="contact-meo-title">
+                    SUBSCRIBE TO GOODFOOD MAGAZINE
+                </p>
+                <p class="contact-meo-description">
+                    Get recipes, tips, and news delivered to your inbox.
+                </p>
+                <div class="contact-meo-between-btn">
+                    <input type="text" placeholder="Enter your mail... *">
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+            <div class="card-support-meo-end col l-4">
+                <p class="contact-meo-title">
+                    VISIT OUR STORE
+                </p>
+                <p class="contact-meo-description">
+                    Here you’ll find a carefully chosen kitchen inventory.
+                </p>
+                <button class="contact-meo-end-btn">PRICE STORE</button>
+            </div>
+        </div>
+        <div class="row">
+            <div style="text-align: center; width: 100%; font-size: 4rem; font-weight: 800;padding: 100px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color: #1e2732;color: white; letter-spacing: 3px;"
+                class="col">
+                FOODAHOLIC
+            </div>
+        </div>
+    </div>
+
+    <footer style="background-color: rgba(37, 41, 50, 1);border-top:5px solid #ffffff54;">
+        <div style="padding-top: 50px; " class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">HƯỚNG DẪN MUA HÀNG</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Blog</a>
+                        <a class="footer-the-a" href="#">Câu hỏi thường gặp</a>
+                        <a class="footer-the-a" href="#">Phương thức thanh toán</a>
+                        <a class="footer-the-a" href="#">Phương thức vận chuyển</a>
+                        <a class="footer-the-a" href="#">Giỏ hàng của tôi</a>
+                        <a class="footer-the-a" href="#">Giấy phép</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">DÀNH CHO BẠN</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Tài khoản của bạn</a>
+                        <a class="footer-the-a" href="#">Thông tin</a>
+                        <a class="footer-the-a" href="#">Địa chỉ</a>
+                        <a class="footer-the-a" href="#">Khuyến mãi</a>
+                        <a class="footer-the-a" href="#">Lịch sử mua hàng</a>
+                        <a class="footer-the-a" href="#">Theo dõi đơn hàng</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">Thông tin</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Bản đồ trang</a>
+                        <a class="footer-the-a" href="#">Từ khóa tìm kiếm</a>
+                        <a class="footer-the-a" href="#">Tìm kiểm nâng cao</a>
+                        <a class="footer-the-a" href="#">Về chúng tôi</a>
+                        <a class="footer-the-a" href="#">Liên hệ với chúng tôi</a>
+                        <a class="footer-the-a" href="#">Chính sách đổi trả</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px ; font-size: 1.5rem;">Liên hệ chúng tôi</h5>
+                    <div style="display: flex;flex-direction: column; ">
+                        <div style="display: flex;margin-bottom: 20px;align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">University of Information Technology</p>
+                        </div>
+                        <div style="display: flex;margin-bottom: 20px;  align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-phone"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">+123456789</p>
+                        </div>
+                        <div style="display: flex;margin-bottom: 20px; align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-envelope"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">foodaholic@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            style="color:#b7bcc8; border-top:1px solid #ffffff54; padding-top: 40px; margin-top: 20px; padding-bottom: 50px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer__social">
+                            <div class="footer__social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-spotify"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer__titele">© 2021 FOODAHOLIC | ALL RIGHTS RESERVED.</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer__aside-info">
+                            <span class="footer__aside-info-item">Contact us</span>
+                            <span class="footer__aside-info-item">19522092</span>
+                            <span class="footer__aside-info-item">19522052</span>
+                            <span class="footer__aside-info-item">19522006</span>
+                            <span class="footer__aside-info-item">19522055</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Module -->
+    <div class="modal">
+        <div class="modal__overlay">
+        </div>
+        <div class="modal__body">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
