@@ -1,0 +1,435 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- External CSS -->
+    <!-- <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css"> -->
+
+    <!-- Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <!-- //<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script> -->
+</head>
+
+<body>
+    <!-- Header -->
+    <div style="background-color: #da254e;" class="header grid">
+        <div class="header__name-logo">
+            <a class="header__custome-logo" href="/">
+                <img class="header__logo" src="./assets/img/logo.PNG" alt="">
+                <div class="header__name">FOODAHOLIC</div>
+            </a>
+        </div>
+        <ul class="nav">
+            <li class="nav_item nav_item-line"><a href="/"></a>Trang chủ</li>
+            <li class="nav_item nav_item-line"><a href="">Công thức</a></li>
+            <li class="nav_item nav_item-line active"><a href="">BMI</a></li>
+            <li class="nav_item nav_item-line"><a href="">Blog</a></li>
+            <li class="nav_item nav_item-line"><a href="./meo.html">Mẹo</a></li>
+            <li class="nav_item nav_item-line"><a href="./gia-san-pham.html">Giá thực phẩm</a></li>
+            <li class="nav_item nav-item-sign-up js-log-in"><a href=""></a>Đăng nhập</li>
+            <li class="nav_item header__navbar-hover element-user-js">
+                <div class="header__nav-user">
+                    <img class="header_nav-user-avata"
+                        src="https://scontent.fvca1-4.fna.fbcdn.net/v/t1.6435-9/120264559_2561897020767572_9018281914969671379_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=3n8dH5GbvzUAX---gXE&_nc_ht=scontent.fvca1-4.fna&oh=e993be034244c5f41b9f70479bfdf6ed&oe=6167F8C1"
+                        alt="">
+                    <span class="header_nav-user-name">Phước Thiện</span>
+                    <ul class="header__navbar-info-user">
+                        <li class="header__navbar--general">
+                            <a href="">Tài khoản</a>
+                        </li>
+                        <li class="header__navbar--general">
+                            <a href="">Địa chỉ</a>
+                        </li>
+                        <li class="header__navbar--general">
+                            <a href="">Blog</a>
+                        </li>
+                        <li class="header__navbar--general header__navbar-border-top js-log-out">
+                            <a class="header__navbar-sign-out" href="">Đăng xuất</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div style="margin-top: 100px;" class="hero">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-6 hero-left">
+                    <h1 class="display-4 mb-5">Hãy xem chỉ số <br>BMI của bạn</h1>
+                    <div class="input-group mb-3">
+                        <span style="font-weight: 800;font-size: 1.2rem;" class="input-group-text"
+                            id="inputGroup-sizing-default">Chiêu cao (cm)</span>
+                        <input type="number" class="form-control" name="height" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span style="font-weight: 800;font-size: 1.2rem;" class="input-group-text"
+                            id="inputGroup-sizing-default">Cân nặng (kg)</span>
+                        <input type="number" class="form-control" name="weight" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div style="display: flex; justify-content: center;" class="mb-2">
+                        <div style="margin-top:10px" class="btn btn-primary btn-shadow btn-lg btn-xac-nhan-bmi" role="button">Xác nhận
+                            BMI</div>
+                    </div>
+                    <div style="display: none" class="loi-khuyen-suc-khoe" style="margin-top: 30px;">
+                        <h2 class="display-4 mb-5">Chỉ số BMI của bạn là: <span style="font-weight: 500;">37</span></h2>
+                        <h5 style="font-size: 2rem;" class="display-4 mb-5">Bạn thuộc nhóm người: <span
+                                style="font-weight: 500;">"Béo phì cấp độ II"</span></h5>
+                    </div>
+
+                    <ul style="padding-top: 20px" class="hero-info list-unstyled d-flex text-center ">
+                        <li class="border-right">
+                            <span class="lnr lnr-rocket"></span>
+                            <h5>
+                                Fast Delivery
+                            </h5>
+                        </li>
+                        <li class="border-right">
+                            <span class="lnr lnr-leaf"></span>
+                            <h5>
+                                Fresh Food
+                            </h5>
+                        </li>
+                        <li class="">
+                            <span class="lnr lnr-bubble"></span>
+                            <h5>
+                                24/7 Support
+                            </h5>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-6 hero-right">
+                    <div class="owl-carousel owl-theme hero-carousel">
+                        <div class="item">
+                            <img class="img-fluid" src="./assets/img/hero-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div style="display: flex; justify-content: center;" class="col-12">
+                <h1 style="font-size: 3rem;">
+                    THÔNG TIN VỀ CHỈ SỐ BMI
+                </h1>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 900; font-style: italic; font-size: 1.6rem;">BMI (Body mass Index) là chỉ số được
+                    tính từ chiều cao và cân nặng, là một chỉ số đáng tin cậy về sự mập ốm của một người.</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">BMI không đo lường trực tiếp mỡ của cơ thể nhưng các
+                    nghiên cứu đã chứng minh rằng BMI tương quan với đo mỡ trực tiếp. BMI là phương pháp không tốn kém
+                    và dễ thực hiện để tầm soát vấn đề sức khoẻ.</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 900;  font-size: 1.6rem; margin: 50px 0;">1. Sử dụng BMI như thế nào?</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">BMI được sử dụng như là một công cụ tầm soát để xác
+                    định trọng lượng thích hợp cho người lớn. Tuy nhiên, BMI không phải là công cụ chẩn đoán. Ví dụ, một
+                    người có chỉ số BMI cao, để xác định trọng lượng có phải là một nguy cơ cho sức khoẻ không thì các
+                    bác sĩ cần thực hiện thêm các đánh giá khác. Những đánh giá này gồm đo độ dày nếp da, đánh giá chế
+                    độ ăn, hoạt động thể lực, tiền sử gia đình và các sàng lọc sức khoẻ khác.</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 900;  font-size: 1.6rem; margin: 50px 0;">2. Tại sao Cơ quan kiểm soát bệnh tật
+                    Hoa Kỳ - CDC sử dụng BMI để xác định sự thừa cân và béo phì?</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">Tính chỉ số BMI là một phương pháp tốt nhất để đánh giá
+                    thừa cân và béo phì cho một quần thể dân chúng. Để tính chỉ số BMI, người ta chỉ yêu cầu đo chiều
+                    cao và cân nặng, không tốn kém và dễ thực hiện. Sử dụng chỉ số BMI cho phép người ta so sánh tình
+                    trạng cân nặng của họ với quần thể nói chung. Công thức tính BMI theo đơn vị kilograms và mét (xem
+                    cách tính dưới đây)</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 900;  font-size: 1.6rem; margin-top:50px;">- Cách đánh giá chỉ số BMI</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">Đối với người lớn từ 20 tuổi trở lên, Sử dụng bảng phân
+                    loại chuẩn cho cả nam và nữ để đánh giá chỉ số BMI.</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">- BMI &#60; 16: Gầy độ III</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">- 16 ≤ BMI &#60; 17: Gầy độ II</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">- 17 ≤ BMI &#60; 18.5: Gầy độ I</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">- 18.5 ≤ BMI &#60; 25: Bình thường</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">- 30 ≤ BMI 35: Béo phì độ 1</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">- 25 ≤ BMI &#60; 30: Thừa cân</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">- 35 ≤ BMI &#60; 40: Béo phì độ II</p>
+            </div>
+            <div class="col-12">
+                <p style="font-weight: 400;  font-size: 1.6rem;">- BMI > 40: Béo phì độ III</p>
+            </div>
+        </div>
+    </div>
+
+    <section style="margin: 100px 0" id="gtco-welcome" class="bg-white section-padding">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2"
+                        style="background-image: url(/assets/img/hero-2.jpg);height: 600px;">
+
+                    </div>
+                    <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                        <div class="heading-section pl-lg-5 ml-md-5">
+                            <h2 style="font-size: 2.5rem;">
+                                Chào mừng bạn đến với FOODAHOLIC!
+                            </h2>
+                        </div>
+                        <div class="pl-lg-5 ml-md-5">
+                            <p style="font-size: 1.4rem;">Cháu thuộc diện Béo phì cập độ III rồi đấy.Để giảm béo phải
+                                trong trường hợp của cháu cần có sự hướng dẫn của các bác sĩ chuyên khoa. Về nguyên tắc
+                                là giảm calo đầu vào (hạn chế năng lượng trong thức ăn) và tăng calo đầu ra (thông qua
+                                tập luyện thể dục, thể thao hay lao động chân tay).</p>
+                            <p style="font-size: 1.4rem;">Việc dùng thuốc men hay phẫu thuật loại mỡ phải do các bác sĩ
+                                chuyên khoa chỉ định. Các sản phẩm giảm cân có nguồn gốc từ thiên nhiên, có khả năng
+                                giảm cân vừa phải, không gây ra các tác dụng phụ cho người sử dụng chính là xu hướng lựa
+                                chọn mới của những người tiêu dùng thông thái. Người ta nói nhiều đến nho đỏ và các thực
+                                phẩm chức năng từ nho đỏ. </p>
+                            <h3 class="mt-5">Recommend</h3>
+                            <div class="row">
+                                <div class="col-4">
+                                    <a href="#" class="thumb-menu">
+                                        <img class="img-fluid img-cover" src="/assets/img/hero-1.jpg" />
+                                        <h6 style="font-size: 1.8rem;">Sữa chua yến mạch</h6>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="#" class="thumb-menu">
+                                        <img class="img-fluid img-cover" src="/assets/img/hero-2.jpg" />
+                                        <h6 style="font-size: 1.8rem;">Bánh socola không đường</h6>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="#" class="thumb-menu">
+                                        <img class="img-fluid img-cover" src="/assets/img/hero-3.jpg" />
+                                        <h6 style="font-size: 1.8rem;">Chao dinh dưỡng Úc</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gtco-testimonial" class="overlay bg-fixed section-padding"
+        style="background-image: url(assets/img/testi-bg.jpg); height: 800px;">
+        <div class="container">
+            <div class="section-content">
+                <div style="height: 100px;" class="heading-section text-center">
+
+                </div>
+                <div class="row">
+                    <!-- Testimonial -->
+                    <div class="testi-content testi-carousel owl-carousel">
+                        <div class="testi-item">
+                            <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                            <p class="testi-text">Những người nghĩ rằng họ không có thời gian để tập thể dục thì sớm
+                                muộn gì, họ cũng phải dành thời gian cho bệnh tật.</p>
+                            <p style="font-size: 3rem; font-weight: 900;" class="testi-author">Như Phước</p>
+                            <p style="font-size: 3rem; font-weight: 900;" class="testi-desc">CEO of <span>FOODAHOLIC</span></p>
+                        </div>
+                        <div class="testi-item">
+                            <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                            <p class="testi-text">Người có sức khỏe, có hy vọng; và người có hy vọng, có tất cả mọi thứ.</p>
+                            <p style="font-size: 3rem; font-weight: 900;" class="testi-author">Công Phi</p>
+                            <p style="font-size: 3rem; font-weight: 900;" class="testi-desc">CEO of <span>FOODAHOLIC</span> </p>
+                        </div>
+                    </div>
+                    <!-- End of Testimonial -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color: rgba(37, 41, 50, 1);border-top:5px solid #ffffff54;">
+        <div style="padding-top: 50px; " class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">HƯỚNG DẪN MUA HÀNG</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Blog</a>
+                        <a class="footer-the-a" href="#">Câu hỏi thường gặp</a>
+                        <a class="footer-the-a" href="#">Phương thức thanh toán</a>
+                        <a class="footer-the-a" href="#">Phương thức vận chuyển</a>
+                        <a class="footer-the-a" href="#">Giỏ hàng của tôi</a>
+                        <a class="footer-the-a" href="#">Giấy phép</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">DÀNH CHO BẠN</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Tài khoản của bạn</a>
+                        <a class="footer-the-a" href="#">Thông tin</a>
+                        <a class="footer-the-a" href="#">Địa chỉ</a>
+                        <a class="footer-the-a" href="#">Khuyến mãi</a>
+                        <a class="footer-the-a" href="#">Lịch sử mua hàng</a>
+                        <a class="footer-the-a" href="#">Theo dõi đơn hàng</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">Thông tin</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Bản đồ trang</a>
+                        <a class="footer-the-a" href="#">Từ khóa tìm kiếm</a>
+                        <a class="footer-the-a" href="#">Tìm kiểm nâng cao</a>
+                        <a class="footer-the-a" href="#">Về chúng tôi</a>
+                        <a class="footer-the-a" href="#">Liên hệ với chúng tôi</a>
+                        <a class="footer-the-a" href="/cart/return-policy">Chính sách đổi trả</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px ; font-size: 1.5rem;">Liên hệ chúng tôi</h5>
+                    <div style="display: flex;flex-direction: column; ">
+                        <div style="display: flex;margin-bottom: 20px;align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">University of Information Technology</p>
+                        </div>
+                        <div style="display: flex;margin-bottom: 20px;  align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-phone"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">+123456789</p>
+                        </div>
+                        <div style="display: flex;margin-bottom: 20px; align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-envelope"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">foodaholic@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            style="color:#b7bcc8; border-top:1px solid #ffffff54; padding-top: 40px; margin-top: 20px; padding-bottom: 50px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer__social">
+                            <div class="footer__social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-spotify"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer__titele">© 2021 FOODAHOLIC | ALL RIGHTS RESERVED.</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer__aside-info">
+                            <span class="footer__aside-info-item">Contact us</span>
+                            <span class="footer__aside-info-item">19522092</span>
+                            <span class="footer__aside-info-item">19522052</span>
+                            <span class="footer__aside-info-item">19522006</span>
+                            <span class="footer__aside-info-item">19522055</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Module -->
+    <div class="modal">
+        <div class="modal__overlay">
+        </div>
+        <div class="modal__body">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <script>
+        let btnXacNhanBMI = document.querySelector('.btn-xac-nhan-bmi');
+        let loiKhuyen = document.querySelector('.loi-khuyen-suc-khoe');
+        let height = document.querySelector('input[name="height"]')
+        let weight = document.querySelector('input[name="weight"]')
+        btnXacNhanBMI.onclick = (e) => {
+            if (height.value == '' || weight.value == ''){
+                loiKhuyen.style.display = 'none'
+            }  else {
+                loiKhuyen.style.display = 'block'
+            }
+        }
+    </script>
+
+</body>
+
+</html>
