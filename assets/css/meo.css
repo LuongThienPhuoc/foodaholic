@@ -152,6 +152,30 @@
     line-height: 2rem;
 }
 
+.card-text1{
+    font-size: 1.3rem;
+    display: -webkit-box;
+    height: 4rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    line-height: 2rem;
+}
+
+.card-title1{
+    font-size: 1.3rem;
+    display: -webkit-box;
+    height: 4rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    line-height: 2rem;
+}
+
 .custom-footer-meo-user{
     color: rgb(128, 128, 235);
     font-size: 2rem;
