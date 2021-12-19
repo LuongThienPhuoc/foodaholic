@@ -24,14 +24,19 @@ a:hover {
 
 .account-page-container {
     padding: 70px 0 50px 0px;
-
 }
 
 .account-sidebar-container {
+
+    /* height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0; */
+
+
     
-
-
-    /* height: 100%; */
 }
 
 .account-detail-container {
@@ -82,4 +87,62 @@ a:hover {
 
 .account-detail-container {
     padding: 16px 48px;
+}
+
+.recipe-item {
+    border-radius: 5px;
+    padding: 16px;
+    background-color: white;
+}
+
+.recipe-img {
+    width: 144px;
+    height: 144px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn-add-album-2 {
+    height: 36px;
+    width: 250px;
+    margin-top: 0px;
+    background-color: rgb(228, 230, 235);
+    color: rgb(27, 19, 5);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btn-add-album-2:hover {
+    background-color: rgb(211,211,211);
+}
+
+.btn-share-album-2 {
+    height: 36px;
+    width: 50px;
+    margin-top: 0px;
+    background-color: rgb(228, 230, 235);
+    color: rgb(27, 19, 5);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btn-share-album-2:hover {
+    background-color: rgb(211,211,211);
+}
+
+.btn-setting {
+    height: 36px;
+    width: 38px;
+    margin-top: 0px;
+    background-color: rgb(228, 230, 235);
+    color: rgb(27, 19, 5);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+}
+
+.btn-setting:hover {
+    background-color: rgb(211,211,211);
 }
