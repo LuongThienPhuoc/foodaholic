@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài đã lưu</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+        <!-- <link rel="stylesheet" href="./assets/css/grid.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/account.css">
+</head>
+<body>
+    <div class="header header__color">
+        <a href="index.html" class="header__name-logo">
+            <img class="header__logo" src="../assets/img/logo.PNG" alt="">
+            <div class="header__name">FOODAHOLIC</div>
+        </a>
+        <ul class="nav">
+            <li class="nav_item nav_item-line"><a href="index.html">Trang chủ</a></li>
+            <li class="nav_item nav_item-line"><a href="receipt.html">Công thức</a></li>   
+            <li class="nav_item nav_item-line"><a href="">BMI</a></li>
+            <li class="nav_item nav_item-line"><a href="">Blog</a></li>
+            <li class="nav_item nav_item-line"><a href="">Mẹo</a></li>
+            <li class="nav_item nav_item-line"><a href="">Giá thực phẩm</a></li>
+            <li class="nav_item nav-item-sign-up js-log-in"><a href=""></a>Đăng nhập</li>
+            <li class="nav_item header__navbar-hover element-user-js">
+                <div class="header__nav-user">
+                    <img class="header_nav-user-avata" src="https://scontent.fvca1-4.fna.fbcdn.net/v/t1.6435-9/120264559_2561897020767572_9018281914969671379_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=3n8dH5GbvzUAX---gXE&_nc_ht=scontent.fvca1-4.fna&oh=e993be034244c5f41b9f70479bfdf6ed&oe=6167F8C1" alt="">
+                    <span class="header_nav-user-name">Phước Thiện</span>
+                    <ul class="header__navbar-info-user">
+                        <li class="header__navbar--general">
+                            <a href="">Tài khoản</a>
+                        </li>
+                        <li class="header__navbar--general">
+                            <a href="">Địa chỉ</a>
+                        </li>
+                        <li class="header__navbar--general">
+                            <a href="">Blog</a>
+                        </li>
+                        <li class="header__navbar--general header__navbar-border-top js-log-out">
+                            <a class="header__navbar-sign-out" href="">Đăng xuất</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="account-page-container vh-100">
+        <div class="row m-0">
+            <div class="account-sidebar-container col-12 col-md-4 col-lg-3">
+                <div class="row mb-3">
+                    <div class="col-8 p-3 d-flex justify-content-start align-items-center">
+                        <h1 class="w-auto" style="font-weight: 600; font-size: 24px; padding-top: 6px;">Đã lưu</h1>
+                    </div>
+                    <div class="col-4 p-3 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn btn-setting mx-3">
+                            <i class="fas fa-cog" style="font-size: 20px;"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="sidebar-item sidebar-item--active row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2005/2005938.png" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold" style="color: var(--primary-color);">
+                            Công thức đã lưu
+                        </span>
+                    </a>
+                </div>
+                <div class="sidebar-item row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnE8WsMa27__YddfbIDp5a5LoWwCziif8cnTjptY6LcLVmC5qypxdvtcF5-sEI7jenk1I&usqp=CAU" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold" style="color: var(--primary-color);">
+                            Blog đã lưu
+                        </span>
+                    </a>
+                </div>
+                <div class="sidebar-item row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://png.pngtree.com/png-clipart/20200401/original/pngtree-lightbulb-helpful-tip-icon-png-image_5329659.jpg" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold" style="color: var(--primary-color);">
+                            Mẹo đã lưu
+                        </span>
+                    </a>
+                </div>
+
+                <div class="fw-bold p-3 border-top mt-3">Bộ sưu tập của tôi</div>
+
+                <div class="sidebar-item row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://blog.mobiscroll.com/wp-content/uploads/2016/06/favorites.png" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold">
+                            Yêu thích
+                        </span>
+                    </a>
+                </div>
+                <div class="sidebar-item row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/stone-fruit-101-1623704940.jpeg?crop=0.893xw:0.838xh;0.0657xw,0.0137xh&resize=640:*" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold">
+                            Tạm thời
+                        </span>
+                    </a>
+                </div>
+                <div class="sidebar-item row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://product.hstatic.net/1000365253/product/the_coffee_club_vietnam_big_breakfast_a26b0ed14bb943f38ef60bfa9bf1b0af_1024x1024.png" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold">
+                            Bữa sáng
+                        </span>
+                    </a>
+                </div>
+                <div class="sidebar-item row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/high-protein-dinners-slow-cooker-meatballs-image-5a04d02.jpg?quality=90&resize=500,454" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold">
+                            Bữa tối
+                        </span>
+                    </a>
+                </div>
+                <div class="sidebar-item row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://du7ybees82p4m.cloudfront.net/56476cc2b7f254.58157922.jpg?width=910&height=512" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold">
+                            Bánh ngọt
+                        </span>
+                    </a>
+                </div>
+                <div class="sidebar-item row d-flex align-items-center">
+                    <a href="" class="row d-flex align-items-center text-decoration-none">
+                        <div class="" style="width: 50px; height: 50px; padding: 8px 0px;">
+                            <img src="https://www.acouplecooks.com/wp-content/uploads/2021/06/Strawberry-Water-006.jpg" class="album-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto fw-bold">
+                            Nước uống
+                        </span>
+                    </a>
+                </div>
+                
+                <div class="px-3">
+                    <button type="button" class="btn btn-add-album w-100">+ Tạo bộ sưu tập mới</button>
+                </div>
+
+
+
+
+            </div>
+            <div class="account-detail-container col-12 col-md-8 col-lg-9">
+                <div class="col">
+                    <div class="row mb-3">
+                        <div class="col-6 p-3 d-flex justify-content-start align-items-center">
+                            <h1 class="w-auto" style="font-weight: 600; font-size: 24px;">Tất cả</h1>
+                        </div>
+                        <div class="col-6 p-3 d-flex justify-content-end align-items-center">
+                            <button type="button" class="btn btn-share-album-2 mx-3">
+                                <i class="fas fa-list" style="font-size: 14px;"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="savedRecipeContainer">
+                    <div class="recipe-item row mb-4">
+                        <div class="d-flex align-items-center" style="width: 150px; height: 150px;">
+                            <img src="https://image.cooky.vn/recipe/g1/4014/s640/recipe4014-636009205974008541.jpg" class="recipe-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto col ps-4">
+                            <div class="fw-bold" style="font-size: 20px;">
+                                Cơm Chiên Dương Châu
+                            </div>
+                            <div class="" style="height: 48px; text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                Cơm chiên Dương Châu là món ăn nổi tiếng của các nhà hàng Trung Quốc và đã trở thành một trong những món không thể thiếu trong bữa ăn của người Việt ta. Cơm chiên là sự hòa trộn giữa phần cơm nguội còn dư lại từ bữa ăn tối hôm trước, đem chiên cùng rau củ, xúc xích, trứng gà cho bữa sáng sau của cả nhà.
+                            </div>
+                            <div class="pt-2 pb-1" style="color: rgb(179, 163, 161); font-size: 14px;">
+                                Bài viết • Đã lưu vào Bữa sáng
+                            </div>
+                            <div class="row py-2">
+                                <button type="button" class="btn btn-add-album-2">Thêm vào bộ sưu tập</button>
+                                <button type="button" class="btn btn-share-album-2 mx-3">
+                                    <i class="fas fa-share" style="font-size: 14px;"></i>
+                                </button>
+                                <button type="button" class="btn btn-share-album-2">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 14px;"></i>
+                                </button>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="recipe-item row mb-4">
+                        <div class="d-flex align-items-center" style="width: 150px; height: 150px;">
+                            <img src="https://image.cooky.vn/recipe/g3/24273/s640/recipe-cover-r24273.jpg" class="recipe-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto col ps-4">
+                            <div class="fw-bold" style="font-size: 20px;">
+                                Nấm Kho Tiêu Chay
+                            </div>
+                            <div class="" style="height: 48px; text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                Nấm kho tiêu tuy là món ăn chay nhưng hương vị lại rất đậm đà, gần gũi khó quên. Các loại nấm được kho săn lại, nhai vào cảm giác giòn sật thoang thoảng mùi tiêu xanh, điểm xuyết những miếng mì căn dai bùi ngập trong nước kho cay the đậm đà, bao nhiêu cơm mới đủ cho một nồi nấm kho chất lượng như vậy đúng không? Nhớ note lại công thức để chiêu đãi gia đình vào những ngày ăn chay sắp tới bạn nhé!
+                            </div>
+                            <div class="pt-2 pb-1" style="color: rgb(179, 163, 161); font-size: 14px;">
+                                Bài viết • Đã lưu vào Yêu thích
+                            </div>
+                            <div class="row py-2">
+                                <button type="button" class="btn btn-add-album-2">Thêm vào bộ sưu tập</button>
+                                <button type="button" class="btn btn-share-album-2 mx-3">
+                                    <i class="fas fa-share" style="font-size: 14px;"></i>
+                                </button>
+                                <button type="button" class="btn btn-share-album-2">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 14px;"></i>
+                                </button>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="recipe-item row mb-4">
+                        <div class="d-flex align-items-center" style="width: 150px; height: 150px;">
+                            <img src="https://image.cooky.vn/recipe/g5/47473/s640/cooky-recipe-636920161359896737.jpg" class="recipe-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto col ps-4">
+                            <div class="fw-bold" style="font-size: 20px;">
+                                Bánh Rán Doremon
+                            </div>
+                            <div class="" style="height: 48px; text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                Bánh rán Đoremon dễ làm lắm mọi người ơi, rảnh rảnh đổ bánh ăn chơi vui lắm nè. Theo công thức này mình làm được khoảng 20 – 22 cái bánh nha.
+                            </div>
+                            <div class="pt-2 pb-1" style="color: rgb(179, 163, 161); font-size: 14px;">
+                                Bài viết • Đã lưu vào Bánh ngọt
+                            </div>
+                            <div class="row py-2">
+                                <button type="button" class="btn btn-add-album-2">Thêm vào bộ sưu tập</button>
+                                <button type="button" class="btn btn-share-album-2 mx-3">
+                                    <i class="fas fa-share" style="font-size: 14px;"></i>
+                                </button>
+                                <button type="button" class="btn btn-share-album-2">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 14px;"></i>
+                                </button>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="recipe-item row mb-4">
+                        <div class="d-flex align-items-center" style="width: 150px; height: 150px;">
+                            <img src="https://image.cooky.vn/recipe/g5/43398/s640/cooky-recipe-cover-r43398.jpg" class="recipe-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto col ps-4">
+                            <div class="fw-bold" style="font-size: 20px;">
+                                Galaxy-Ade - Soda Ngân Hà
+                            </div>
+                            <div class="" style="height: 48px; text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                Để phá tan những buổi trưa nóng bức của Sài Gòn, bạn thường làm loại nước uống nào? Chắc chắn là đa phần các bạn chọn trà sữa hoặc nước ngọt đúng không? Nhưng với mình mình chọn nước chanh. Để thêm một chút màu sắc cho xinh xắn, mình biến ly nước chanh của mình thành cả dải ngân hà luôn đây. Nếu đang thắc mắc tên gọi của nó vì sao là galaxy-ade thì thật ra nãy giờ mình đã giải thích rồi đấy, đuôi -ade xuất phát từ chữ "Lemonade" (nước chanh). Và ly nước chanh của mình mang màu sắc của dãy ngân hà vì vậy nó mới có tên là Galaxy-ade đó, nước chanh ngân hà của mình xinh và dễ thương y như tên gọi của nó đúng không?
+                            </div>
+                            <div class="pt-2 pb-1" style="color: rgb(179, 163, 161); font-size: 14px;">
+                                Bài viết • Đã lưu vào Nước uống
+                            </div>
+                            <div class="row py-2">
+                                <button type="button" class="btn btn-add-album-2">Thêm vào bộ sưu tập</button>
+                                <button type="button" class="btn btn-share-album-2 mx-3">
+                                    <i class="fas fa-share" style="font-size: 14px;"></i>
+                                </button>
+                                <button type="button" class="btn btn-share-album-2">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 14px;"></i>
+                                </button>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="recipe-item row mb-4">
+                        <div class="d-flex align-items-center" style="width: 150px; height: 150px;">
+                            <img src="https://image.cooky.vn/recipe/g4/37837/s640/cooky-recipe-cover-r37837.jpg" class="recipe-img img-fluid img-thumbnail border-0 p-0" alt="">
+                        </div>
+                        <span class="w-auto col ps-4">
+                            <div class="fw-bold" style="font-size: 20px;">
+                                Rong Biển Cuộn Rau Củ
+                            </div>
+                            <div class="" style="height: 48px; text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                                Rau biển là món ăn không còn xa lạ và được chế biến với nhiều nguyên liệu khác nhau, và món ăn này chủ yếu được cuộn cơm để làm món ăn no trong những buổi picnic gia đình. Tuy nhiên, sự biến tấu nhẹ nhàng dành cho những bạn không thích ăn cơm, hoặc các bạn ăn Eat Clean thì món này chắc chắn là sự lựa chọn hoàn hảo. Nguyên liệu rất tươi ngon lại chế biến rất đơn giản chắc chắn sẽ là công thức mới hay ho cho các nàng muốn có một hình thể đẹp.
+                            </div>
+                            <div class="pt-2 pb-1" style="color: rgb(179, 163, 161); font-size: 14px;">
+                                Bài viết • Đã lưu vào Tạm thời
+                            </div>
+                            <div class="row py-2">
+                                <button type="button" class="btn btn-add-album-2">Thêm vào bộ sưu tập</button>
+                                <button type="button" class="btn btn-share-album-2 mx-3">
+                                    <i class="fas fa-share" style="font-size: 14px;"></i>
+                                </button>
+                                <button type="button" class="btn btn-share-album-2">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 14px;"></i>
+                                </button>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
