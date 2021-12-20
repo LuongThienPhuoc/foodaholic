@@ -264,7 +264,7 @@
 }
 
 .contact-meo-between-btn button:hover{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.616);
     color: white;
 }
 
@@ -322,4 +322,8 @@
 .reply-action:hover{
     cursor: pointer;
     color:yellow;
+}
+
+input::placeholder {
+    color: white;
 }
