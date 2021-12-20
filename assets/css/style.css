@@ -318,7 +318,9 @@ a.header__navbar-sign-out{
 }
 
 .auth-form__socials-icon{
+    padding-left: 10px;
     margin-right: 10px;
+    font-size: 18px;
 }
 
 
@@ -435,7 +437,7 @@ a.header__navbar-sign-out{
 
 
 .auth-form__aside{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .auth-form__policy-link{
     text-decoration: none;
