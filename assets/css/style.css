@@ -103,7 +103,6 @@ html {
 
 .header .nav > li:hover{
     cursor: pointer;
-    opacity: 0.5;
 }
 
 .header__custome-logo{
@@ -498,7 +497,7 @@ a.header__navbar-sign-out{
 
 .slider__img1 {
     width: 100%;
-    height: 90vmin;
+    height: 80vmin;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -980,4 +979,9 @@ a.header__navbar-sign-out{
 .btn-xem-them:hover{
     color:#da254e !important;
     background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.recommend:hover{
+    background-color: rgba(0, 0, 0, 0.035) !important;
+    border-radius: 8px;
 }
