@@ -329,5 +329,13 @@
 }
 
 input::placeholder {
-    color: white;
+    color: black;
+}
+
+.blog-card:hover .card-title1{
+    color: #da254e !important;
+}
+
+.card__meo-user:hover .title-meo-user {
+    color: #da254e !important;
 }
