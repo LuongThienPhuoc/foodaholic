@@ -985,3 +985,7 @@ a.header__navbar-sign-out{
     background-color: rgba(0, 0, 0, 0.035) !important;
     border-radius: 8px;
 }
+
+.btn-xem-them-gia:hover {
+    background-color: #C0C0C0 !important;
+}
