@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,15 +16,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/receipt.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/receipt.css">
 </head>
 
 <body>
     <!-- Header -->
 
-    <div class="header grid">
+    <div class="header">
         <div class="header__name-logo">
             <a class="header__custome-logo" href="/">
                 <img class="header__logo" src="./assets/img/logo.PNG" alt="">
@@ -65,52 +66,179 @@
     <div class="grid slider" style='height:70px'>
         <div class="slider__img" style='height:100%'></div>
     </div>
-    <img class="receipt-fake" style='width: 100%;'src="./assets/img/food-avatar/food-receipt.png" alt="">
+    
     <!-- Mình code lại giống cái hình ở trên -->
-    <div class="container">
+    <div style="margin-top:30px" class="container">
         <div class="grid wide blog">
             <div class="row">
-                <img class='col l-6 m-12' src="./assets/img/food-avatar/ga.jpeg" alt="">
-                <div class="col l-6 m12">
-                    <div class="title">
-                        Công thức nấu ăn 
+                <img style="border-radius:6px;" class='col l-6 m-12' src="./assets/img/food-avatar/ga.jpeg" alt="">
+                <div style="padding-left:50px" class="col l-6 m12">
+                    <div style="margin: 20px 0;font-weight: 800;font-size: 2rem;display:flex; justify-content: space-between;color:rgba(0, 0, 0, 0.342)" class="title">
+                        <div>
+                            Công thức nấu ăn
+                        </div>
+                        <div>
+                            <i style="transform:translateY(30%); cursor: pointer;" class="fas fa-bookmark"></i>
+                        </div>
                     </div>
-                    <div class="rating">
+                    <div style="margin:20px 0" class="rating">
                         <div class="rating-star">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
-                        </div>
-                        <div class="rating-title">
-                            4.8 (87 đánh giá)
+                            <i style="color: rgb(219, 219, 39);margin: 0 3px;font-size: 1.4rem;" class="fas fa-star"></i>
+                            <i style="color: rgb(219, 219, 39);;margin: 0 3px;font-size: 1.4rem;" class="fas fa-star"></i>
+                            <i style="color: rgb(219, 219, 39);;margin: 0 4px;font-size: 1.4rem;" class="fas fa-star"></i>
+                            <i style="color: rgb(219, 219, 39);;margin: 0 4px;font-size: 1.4rem;" class="fas fa-star"></i>
+                            <i class="far fa-star" style="margin: 0 4px;font-size: 1.4rem;  "></i>
+                            <span style="font-size: 1.4rem;font-weight: 900;margin-left: 5px;"> 4.8  <span style="padding-left: 5px;color:rgba(0, 0, 0, 0.342) ;">(87 đánh giá)</span></span>
                         </div>
                     </div>
-                    <div class="name">
+                    <div style="margin: 20px 0; font-size:3.5rem;font-weight: 900;" >
                         Gà nướng lá chanh áp chảo
                     </div>
-                    <div class="description">
-                        Món gà nướng lá chanh giòn tan, thơm lừng lại vô cùng dễ thực hiện, là một lựa chọn hoàn hảo cho bữa tối cuối tuần. Hãy cùng vào bếp học làm món nướng này để có thể chiêu đãi những người thân yêu ngay thôi!
+                    <div style="margin: 20px 0; font-size:1.4rem; color: rgba(0, 0, 0, 0.719);" >
+                        Món gà nướng lá chanh giòn tan, thơm lừng lại vô cùng dễ thực hiện, là một lựa chọn hoàn hảo cho
+                        bữa tối cuối tuần. Hãy cùng vào bếp học làm món nướng này để có thể chiêu đãi những người thân
+                        yêu ngay thôi!
                     </div>
-                    <div>
-                        
+                    
+                    <div style="display:flex; margin: 20px 0; ">
+                        <div style="margin-right:50px">
+                            <div style="font-weight: 900; color:rgba(0, 0, 0, 0.419); font-size: 1rem;">Calories</div>
+                            <div style="color: black; font-weight: 800;font-size: 1.8rem;">475cal</div>
+                        </div>
+                        <div style="margin-right:50px">
+                            <div style="font-weight: 900; color:rgba(0, 0, 0, 0.419); font-size: 1rem;">Protein</div>
+                            <div style="color: black; font-weight: 800;font-size: 1.8rem;">32g</div>
+                        </div>
+                        <div style="margin-right:50px">
+                            <div style="font-weight: 900; color:rgba(0, 0, 0, 0.419); font-size: 1rem;">Fats</div>
+                            <div style="color: black; font-weight: 800;font-size: 1.8rem;">68g</div>
+                        </div>
+                        <div style="margin-right:50px">
+                            <div style="font-weight: 900; color:rgba(0, 0, 0, 0.419); font-size: 1rem;">Carbs</div>
+                            <div style="color: black; font-weight: 800;font-size: 1.8rem;">12g</div>
+                        </div>
                     </div>
-                    <div>
-                        Năng lượng
+                    <div style="display:flex;margin:20px 0">
+                       <div style="margin-right:20px">
+                            <i style="color: #da254e;font-size: 3rem; font-weight: 400; transform: translateY(12%);" class="far fa-clock"></i>
+                        </div>
+                        <div> 
+                            <div style="font-weight: 900; color:rgba(0, 0, 0, 0.419); font-size: 1rem;">Chuẩn bị</div>
+                            <div style="color: black; font-weight: 800;font-size: 1.5rem;">1 giờ 20 phút</div>
+                        </div>
                     </div>
                 </div>
-                
+                <div style="margin-top:50px" class="col-12">
+                    <div class="row">
+                        <div class="col-6">
+                            <div style="font-size: 2rem;font-weight: 800;">NGUYÊN LIỆU</div>
+                            <div style="padding-left: 15px;">
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">1/4 chén dầu ô liu nguyên chất</div>
+                                </div>
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">Nước ép của 2 quả chanh hoặc chanh</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">2 nhánh tỏi lớn, băm nhuyễn</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">
+                                        2 củ hẹ bằm nhỏ</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">1 thìa cà phê thì là xay</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">1 thìa cà phê ớt cayenne</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">
+                                        Muối kosher</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">
+                                        1/2 bó ngò, xắt nhỏ</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">4 phi lê cá hồi cắt tâm nặng 6 ounce, bỏ da</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">1 trái tim cọ có thể nặng 14 ounce, cắt thành miếng 1 inch</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">1 pint cà chua bi hoặc nho, giảm một nửa</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">Dầu thực vật để đánh răng</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">4 phi lê cá hồi cắt tâm nặng 6 ounce, bỏ da</div>
+                                </div>  
+                                <div style="display:flex; margin: 10px 0;border-bottom: 1px solid rgba(0, 0, 0, 0.144);padding-bottom: 10px;">
+                                    <i style="color: #da254e;font-size: 2rem; font-weight: 400; transform: translateY(10%);" class="far fa-check-circle"></i>
+                                    <div style="color: rgba(0, 0, 0, 0.637);font-size: 1.4rem;padding-left: 10px;transform: translateY(8%);font-weight: 700;">
+                                        2 chén rau trộn salad</div>
+                                </div>  
+                            </div>
+                            
+                        </div>
+                        <div class="col-6">
+                            <div style="font-size: 2rem;font-weight: 800;">HƯỚNG DẪN</div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Làm nóng lò nướng ở nhiệt độ cao vừa.
+                            </div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Trong một tô lớn, đánh nhuyễn 2 muỗng canh dầu ô liu, nước cốt của 1 quả chanh, tỏi, hẹ tây, thìa là, ớt cayenne, 1 muỗng cà phê muối và một nửa số ngò. 
+                            </div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Thêm cá hồi và trở thành áo khoác. rau xanh.
+                            </div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Để ướp 15 phút ở nhiệt độ phòng.  Mùa muối. Phủ dầu thực vật lên vỉ nướng.
+                            </div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Trong khi đó, cho trái tim của cọ và cà chua vào bát cùng với 2 thìa dầu ô liu còn lại, nước cốt chanh còn lại và phần còn lại của rau mùi.
+                            </div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Trong khi đó, cho trái tim của cọ và cà chua vào bát cùng với 2 thìa dầu ô liu còn lại, nước cốt chanh còn lại và phần còn lại của rau mùi.
+                            </div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Nướng cá hồi, tròn từ mặt dưới, cho đến khi được đánh dấu ở mặt dưới, khoảng 4 phút. 
+                            </div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Lật và tiếp tục nướng cho đến khi được đánh dấu ở mặt còn lại và nướng chín trong 2 đến 3 phút nữa. Chia cá hồi giữa các đĩa.
+                            </div>
+                            <div style="margin: 10px 0; font-size: 1.4rem; padding-left: 20px;">
+                                - Ăn kèm với rau xanh và trái tim của salad cọ; tưới nước từ xà lách lên 
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>   
+    </div>
     <div class="container">
         <div class="grid wide blog">
             <div class="cook__heading new_one">Công thức nấu ăn tương tự</div>
             <div class="row">
                 <!-- Gà salad -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
-                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)">
+                    </div>
                     <div class="item-description">
                         <div class="item-heading">
                             <div class="heading-titles">
@@ -119,45 +247,44 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Gà</a></li>
-                            <li class="tag-item"><a href="">Nướng</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.8
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>55m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Gà</a></li>
+                                <li class="tag-item"><a href="">Nướng</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    
+                                </div>
+                                 4.8  <span>(87 đánh giá)</span>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>55m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>615 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>615 Cal</span>
-                        </div>
-                    </div>
-                    
                 </li>
                 <!-- Bò bít tết  -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
@@ -170,46 +297,46 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Bò</a></li>
-                            <li class="tag-item"><a href="">Bít tết</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.5
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>35m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Bò</a></li>
+                                <li class="tag-item"><a href="">Bít tết</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.5
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>35m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>1615 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>1615 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li>  
+                </li>
                 <!-- Cơm chiên  -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/comchien.jpg)"></div>
@@ -221,46 +348,46 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Cơm</a></li>
-                            <li class="tag-item"><a href="">Chiên</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.0
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>15m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Cơm</a></li>
+                                <li class="tag-item"><a href="">Chiên</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.0
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>15m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>415 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>415 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li>  
+                </li>
                 <!-- Cá lóc kho tộ -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/caloc.jpg)"></div>
@@ -272,47 +399,47 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Cá lóc</a></li>
-                            <li class="tag-item"><a href="">Kho</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.8
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>55m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Cá lóc</a></li>
+                                <li class="tag-item"><a href="">Kho</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.8
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>55m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>715 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>715 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li>  
-                
+                </li>
+
                 <!-- Bò bít tết  -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/bobitet.jpg)"></div>
@@ -324,47 +451,47 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Bò</a></li>
-                            <li class="tag-item"><a href="">Bít tết</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.5
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>35m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Bò</a></li>
+                                <li class="tag-item"><a href="">Bít tết</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.5
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>35m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>1615 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>1615 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li>  
-                
+                </li>
+
                 <!-- Cá lóc kho tộ -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/caloc.jpg)"></div>
@@ -376,49 +503,50 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Cá lóc</a></li>
-                            <li class="tag-item"><a href="">Kho</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.8
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>55m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Cá lóc</a></li>
+                                <li class="tag-item"><a href="">Kho</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.8
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>55m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>715 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>715 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li> 
+                </li>
                 <!-- Gà salad -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
-                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)">
+                    </div>
                     <div class="item-description">
                         <div class="item-heading">
                             <div class="heading-titles">
@@ -427,46 +555,46 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Gà</a></li>
-                            <li class="tag-item"><a href="">Nướng</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.8
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>55m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Gà</a></li>
+                                <li class="tag-item"><a href="">Nướng</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.8
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>55m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>615 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>615 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li> 
+                </li>
                 <!-- Cơm chiên  -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/comchien.jpg)"></div>
@@ -478,45 +606,45 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Cơm</a></li>
-                            <li class="tag-item"><a href="">Chiên</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.0
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>15m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Cơm</a></li>
+                                <li class="tag-item"><a href="">Chiên</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.0
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>15m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>415 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>415 Cal</span>
-                        </div>
-                    </div>
-                    
                 </li>
             </div>
             <div class='row receipt-type-header'>
@@ -541,25 +669,25 @@
                 </li>
                 <li class="col l-2 m-4">
                     <div class="type-div">
-                        <img class="type-img" src="./assets/img/food-avatar/food-type/2.jpg"  alt="">
+                        <img class="type-img" src="./assets/img/food-avatar/food-type/2.jpg" alt="">
                         <span class="type-title">Món ăn nhanh</span>
                     </div>
                 </li>
                 <li class="col l-2 m-4">
                     <div class="type-div">
-                        <img class="type-img" src="./assets/img/food-avatar/food-type/3.jpg"  alt="">
+                        <img class="type-img" src="./assets/img/food-avatar/food-type/3.jpg" alt="">
                         <span class="type-title">Món ăn vặt</span>
                     </div>
                 </li>
                 <li class="col l-2 m-4">
                     <div class="type-div">
-                        <img class="type-img" src="./assets/img/food-avatar/food-type/4.jpg"  alt="">
+                        <img class="type-img" src="./assets/img/food-avatar/food-type/4.jpg" alt="">
                         <span class="type-title">Rau củ</span>
                     </div>
                 </li>
                 <li class="col l-2 m-4">
                     <div class="type-div">
-                        <img class="type-img" src="./assets/img/food-avatar/food-type/5.jpg"  alt="">
+                        <img class="type-img" src="./assets/img/food-avatar/food-type/5.jpg" alt="">
                         <span class="type-title">Món nướng</span>
                     </div>
                 </li>
@@ -572,7 +700,8 @@
             <div class="row">
                 <!-- Gà salad -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
-                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)">
+                    </div>
                     <div class="item-description">
                         <div class="item-heading">
                             <div class="heading-titles">
@@ -581,45 +710,45 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Gà</a></li>
-                            <li class="tag-item"><a href="">Nướng</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.8
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>55m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Gà</a></li>
+                                <li class="tag-item"><a href="">Nướng</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.8
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>55m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>615 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>615 Cal</span>
-                        </div>
-                    </div>
-                    
                 </li>
                 <!-- Bò bít tết  -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
@@ -632,46 +761,46 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Bò</a></li>
-                            <li class="tag-item"><a href="">Bít tết</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.5
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>35m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Bò</a></li>
+                                <li class="tag-item"><a href="">Bít tết</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.5
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>35m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>1615 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>1615 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li>  
+                </li>
                 <!-- Cơm chiên  -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/comchien.jpg)"></div>
@@ -683,46 +812,46 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Cơm</a></li>
-                            <li class="tag-item"><a href="">Chiên</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.0
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>15m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Cơm</a></li>
+                                <li class="tag-item"><a href="">Chiên</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.0
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>15m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>415 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>415 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li>  
+                </li>
                 <!-- Cá lóc kho tộ -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/caloc.jpg)"></div>
@@ -734,46 +863,46 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Cá lóc</a></li>
-                            <li class="tag-item"><a href="">Kho</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.8
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>55m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Cá lóc</a></li>
+                                <li class="tag-item"><a href="">Kho</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.8
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>55m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>715 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>715 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li>  
+                </li>
                 <!-- Bò bít tết  -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/bobitet.jpg)"></div>
@@ -785,46 +914,46 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Bò</a></li>
-                            <li class="tag-item"><a href="">Bít tết</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.5
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>35m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Bò</a></li>
+                                <li class="tag-item"><a href="">Bít tết</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.5
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>35m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>1615 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>1615 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li>  
+                </li>
                 <!-- Cá lóc kho tộ -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/caloc.jpg)"></div>
@@ -836,49 +965,50 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Cá lóc</a></li>
-                            <li class="tag-item"><a href="">Kho</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.8
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>55m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Cá lóc</a></li>
+                                <li class="tag-item"><a href="">Kho</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.8
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>55m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>715 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>715 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li> 
+                </li>
                 <!-- Gà salad -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
-                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)">
+                    </div>
                     <div class="item-description">
                         <div class="item-heading">
                             <div class="heading-titles">
@@ -887,46 +1017,46 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Gà</a></li>
-                            <li class="tag-item"><a href="">Nướng</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.8
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>55m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Gà</a></li>
+                                <li class="tag-item"><a href="">Nướng</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.8
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>55m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>615 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>615 Cal</span>
-                        </div>
-                    </div>
-                    
-                </li> 
+                </li>
                 <!-- Cơm chiên  -->
                 <li class="col l-3 m-6 receipt-nutshell-item">
                     <div class="item-img" style="background-image: url(./assets/img/food-avatar/comchien.jpg)"></div>
@@ -938,45 +1068,45 @@
                             <div class="heading-icon">
                                 <i class="far fa-bookmark unmarked-icon"></i>
                                 <i class="fas fa-bookmark marked-icon"></i>
-                            </div> 
-                        </div>
-                    <div class="tag-rating">
-                        <ul class="tag-list">
-                            <li class="tag-item"><a href="">Cơm</a></li>
-                            <li class="tag-item"><a href="">Chiên</a></li>
-                        </ul>
-                        <div class="rating">
-                            <div class="rating-star">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="rating-title">
-                                4.0
                             </div>
                         </div>
-                    </div>
-
-                    <div class="cooking-infor">
-                        <div class="cooking-time">
-                            <i class="far fa-clock"></i>
-                            <span>15m</span>
+                        <div class="tag-rating">
+                            <ul class="tag-list">
+                                <li class="tag-item"><a href="">Cơm</a></li>
+                                <li class="tag-item"><a href="">Chiên</a></li>
+                            </ul>
+                            <div class="rating">
+                                <div class="rating-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="rating-title">
+                                    4.0
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="food-ration">
-                            <i class="fas fa-cookie"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
-                            <i class="fas fa-cookie icon-disable"></i>
+                        <div class="cooking-infor">
+                            <div class="cooking-time">
+                                <i class="far fa-clock"></i>
+                                <span>15m</span>
+                            </div>
+
+                            <div class="food-ration">
+                                <i class="fas fa-cookie"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                                <i class="fas fa-cookie icon-disable"></i>
+                            </div>
+
+                            <div class="food-calo">
+                                <i class="fas fa-apple-alt"></i>
+                                <span>415 Cal</span>
+                            </div>
                         </div>
 
-                        <div class="food-calo">
-                            <i class="fas fa-apple-alt"></i>
-                            <span>415 Cal</span>
-                        </div>
-                    </div>
-                    
                 </li>
             </div>
             <div class='row receipt-type-header'>
@@ -985,20 +1115,31 @@
                 </div>
             </div>
         </div>
-        
     </div>
+    
     <footer style="background-color: rgba(37, 41, 50, 1);border-top:5px solid #ffffff54;">
-        <div style="padding-top: 50px; " class="container">
+        <div style="padding-top: 50px;" class="container">
             <div class="row">
                 <div class="col-3">
-                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">HƯỚNG DẪN MUA HÀNG</h5>
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">FOODAHOLIC</h5>
                     <div style="display: flex;flex-direction: column;">
-                        <a class="footer-the-a" href="#">Blog</a>
-                        <a class="footer-the-a" href="#">Câu hỏi thường gặp</a>
-                        <a class="footer-the-a" href="#">Phương thức thanh toán</a>
-                        <a class="footer-the-a" href="#">Phương thức vận chuyển</a>
-                        <a class="footer-the-a" href="#">Giỏ hàng của tôi</a>
-                        <a class="footer-the-a" href="#">Giấy phép</a>
+                        <a class="footer-the-a" href="/index.html">Trang chủ</a>
+                        <a class="footer-the-a" href="/receipt.html">Công thức</a>
+                        <a class="footer-the-a" href="/blog.html">Blog</a>
+                        <a class="footer-the-a" href="/BMI.html">BMI</a>
+                        <a class="footer-the-a" href="/meo.html">Mẹo</a>
+                        <a class="footer-the-a" href="/gia-san-pham.html">Giá sản phẩm</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">Công thức</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Buổi sáng</a>
+                        <a class="footer-the-a" href="#">Buổi trưa</a>
+                        <a class="footer-the-a" href="#">Buổi tối</a>
+                        <a class="footer-the-a" href="#">Đồ ăn nhẹ</a>
+                        <a class="footer-the-a" href="#">Bánh ngọt</a>
+                        <a class="footer-the-a" href="#">Nước uống</a>
                     </div>
                 </div>
                 <div class="col-3">
@@ -1006,21 +1147,10 @@
                     <div style="display: flex;flex-direction: column;">
                         <a class="footer-the-a" href="#">Tài khoản của bạn</a>
                         <a class="footer-the-a" href="#">Thông tin</a>
-                        <a class="footer-the-a" href="#">Địa chỉ</a>
-                        <a class="footer-the-a" href="#">Khuyến mãi</a>
-                        <a class="footer-the-a" href="#">Lịch sử mua hàng</a>
-                        <a class="footer-the-a" href="#">Theo dõi đơn hàng</a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">Thông tin</h5>
-                    <div style="display: flex;flex-direction: column;">
-                        <a class="footer-the-a" href="#">Bản đồ trang</a>
-                        <a class="footer-the-a" href="#">Từ khóa tìm kiếm</a>
-                        <a class="footer-the-a" href="#">Tìm kiểm nâng cao</a>
-                        <a class="footer-the-a" href="#">Về chúng tôi</a>
-                        <a class="footer-the-a" href="#">Liên hệ với chúng tôi</a>
-                        <a class="footer-the-a" href="/cart/return-policy">Chính sách đổi trả</a>
+                        <a class="footer-the-a" href="#">Công thức đã lưu</a>
+                        <a class="footer-the-a" href="#">Mẹo đã lưu</a>
+                        <a class="footer-the-a" href="#">Blog đã lưu</a>
+                        <a class="footer-the-a" href="#">Đăng ký tài khoản</a>
                     </div>
                 </div>
                 <div class="col-3">
@@ -1090,6 +1220,7 @@
             </div>
         </div>
     </footer>
+
     <a href="./receiptdetail.html" class='to-receipt-detail'></a>
     <!-- Module -->
     <div class="modal">
@@ -1107,59 +1238,53 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <script>
+    <script>
 
-            var bookMarks = document.getElementsByClassName('heading-icon');
-            var stars = document.getElementsByClassName('fa-star');
-            // Đánh bookmark
-            for(const bookMark of bookMarks)
-            {
-                bookMark.addEventListener('click', function(event){
-                    if (bookMark.classList.contains('marked')){
-                        bookMark.classList.remove('marked');
-                    }
-                    else bookMark.classList.add('marked');
-                });
-            }
-
-            // Đánh sao
-            for(var index = 0; index < stars.length ; index++)
-            {
-                stars[index].addEventListener('click', function(event)
-                {
-                    for(var i = 0; i < stars.length ; i++)
-                    {
-                        stars[i].classList.remove('far');
-                        stars[i].classList.add('fas');
-                    }
-                    for(var i = 0; i <= index ; i++)
-                    {
-                        stars[i].classList.add('far');
-                    }
-                });
-            }
-            var header = document.querySelector('.header');
-
-            window.onscroll = function(){
-                console.log(document.body.scrollTop);
-                if (document.body.scrollTop > 100) {
-                    header.classList.add('header__color');
-                } else {
-                    header.classList.remove('header__color');
+        var bookMarks = document.getElementsByClassName('heading-icon');
+        var stars = document.getElementsByClassName('fa-star');
+        // Đánh bookmark
+        for (const bookMark of bookMarks) {
+            bookMark.addEventListener('click', function (event) {
+                if (bookMark.classList.contains('marked')) {
+                    bookMark.classList.remove('marked');
                 }
-            }
+                else bookMark.classList.add('marked');
+            });
+        }
 
-            
-
-            allReceipts = document.querySelectorAll('.receipt-nutshell-item');
-            for(var i = 0 ; i < allReceipts.length ; i++)
-            {
-                allReceipts[i].onclick = () => {
-                    document.querySelector('.to-receipt-detail').click();
+        // Đánh sao
+        for (var index = 0; index < stars.length; index++) {
+            stars[index].addEventListener('click', function (event) {
+                for (var i = 0; i < stars.length; i++) {
+                    stars[i].classList.remove('far');
+                    stars[i].classList.add('fas');
                 }
+                for (var i = 0; i <= index; i++) {
+                    stars[i].classList.add('far');
+                }
+            });
+        }
+        var header = document.querySelector('.header');
+
+        window.onscroll = function () {
+            console.log(document.body.scrollTop);
+            if (document.body.scrollTop > 100) {
+                header.classList.add('header__color');
+            } else {
+                header.classList.remove('header__color');
             }
-        </script>
-        <script src="./main.js"></script>
+        }
+
+
+
+        allReceipts = document.querySelectorAll('.receipt-nutshell-item');
+        for (var i = 0; i < allReceipts.length; i++) {
+            allReceipts[i].onclick = () => {
+                document.querySelector('.to-receipt-detail').click();
+            }
+        }
+    </script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
