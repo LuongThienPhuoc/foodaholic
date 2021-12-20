@@ -310,6 +310,10 @@
     color: red;
 }
 
+.comment-action:hover {
+    color: lightblue;
+}
+
 .save-action:hover{
     color:rgb(184, 184, 6)
 }
