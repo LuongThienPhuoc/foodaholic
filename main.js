@@ -59,7 +59,7 @@ btnLogIn.addEventListener('click', function(){
                                         <div class="auth-form__support">
                                             <span class="auth-form__support-forget">Quên mật khẩu</span>
                                             <span class="auth-form__help-separate"></span>
-                                            <span class="auth-form__support-need-support">Cận trợ giúp?</span>
+                                            <span class="auth-form__support-need-support">Cần trợ giúp?</span>
                                         </div>
                                         <div class="auth-form__btn">
                                             <div onclick="backForm()" class="auth-form__btn-back">Trở lại</div>
@@ -71,11 +71,11 @@ btnLogIn.addEventListener('click', function(){
                                 <div class="auth-form__socials">
                                     <a href="#" class="auth-form__socials--facebook">
                                         <i class="fab fa-facebook-square auth-form__socials-icon"></i>
-                                        <span class="auth-form__socials-title">Đăng nhập với facebook</span>
+                                        <span class="auth-form__socials-title">Đăng nhập với Facebook</span>
                                     </a>
                                     <a href="#" class="auth-form__socials--google">
                                         <i class="fab fa-google auth-form__socials-icon"></i>
-                                        <span class="auth-form__socials-title">Đăng nhập với facebook</span>
+                                        <span class="auth-form__socials-title">Đăng nhập với Google</span>
                                     </a>
                                 </div>
                             </div>`
@@ -134,7 +134,7 @@ function SignUpSwitch(){
                                         </div>
                                         <div class="auth-form__aside">
                                             <p class="auth-form__policy-text-link">
-                                                Bằng việc đăng ký, bạn đã đồng ý với Shopee về
+                                                Bằng việc đăng ký, bạn đã đồng ý về
                                                 <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> & 
                                                 <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
                                             </p>
@@ -149,11 +149,11 @@ function SignUpSwitch(){
                                 <div class="auth-form__socials">
                                     <a href="#" class="auth-form__socials--facebook">
                                         <i class="fab fa-facebook-square auth-form__socials-icon"></i>
-                                        <span class="auth-form__socials-title">Đăng nhập với facebook</span>
+                                        <span class="auth-form__socials-title">Đăng nhập với Facebook</span>
                                     </a>
                                     <a href="#" class="auth-form__socials--google">
                                         <i class="fab fa-google auth-form__socials-icon"></i>
-                                        <span class="auth-form__socials-title">Đăng nhập với facebook</span>
+                                        <span class="auth-form__socials-title">Đăng nhập với Google</span>
                                     </a>
                                 </div>
                             </div>`
@@ -194,11 +194,11 @@ function SignInSwitch(){
                                 <div class="auth-form__socials">
                                     <a href="#" class="auth-form__socials--facebook">
                                         <i class="fab fa-facebook-square auth-form__socials-icon"></i>
-                                        <span class="auth-form__socials-title">Đăng nhập với facebook</span>
+                                        <span class="auth-form__socials-title">Đăng nhập với Facebook</span>
                                     </a>
                                     <a href="#" class="auth-form__socials--google">
                                         <i class="fab fa-google auth-form__socials-icon"></i>
-                                        <span class="auth-form__socials-title">Đăng nhập với facebook</span>
+                                        <span class="auth-form__socials-title">Đăng nhập với Google</span>
                                     </a>
                                 </div>
                             </div>`
