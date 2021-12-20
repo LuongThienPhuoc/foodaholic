@@ -13,16 +13,6 @@
     justify-content: center;
 }
 
-
-
-.row {
-    margin-top: 20px;
-    width: 100%;
-    margin-left: -5px;
-    margin-right: -5px;
-    display: flex;
-}
-
 .receipt-type-title {
     color: #3a393a;
     font-size: 20px;
@@ -58,6 +48,8 @@
 .receipt-nutshell-item:hover {
     /* transform: scale(1.05); */
     transform: translateY(-10px);
+    cursor: pointer;
+    
 }
 
 .receipt-nutshell-item .item-img{
@@ -324,7 +316,7 @@
     border: 1px solid #ccc;
     font-size: 16px;
     margin-top: 22px;
-    margin-right: 68px;
+    margin-right: 10px;
     padding: 4px 10px; 
     border-radius:  7px;
     color: var(--primary-color)
@@ -342,7 +334,6 @@
 }
 
 .type-div {
-    width: 16%;
     height: 180px;
     background-size: contain;
     object-fit: contain;
@@ -352,7 +343,6 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     display: flex;
     justify-content: center;
-    margin-right: 10px;
 }
 
 .type-div.active {
