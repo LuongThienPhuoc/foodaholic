@@ -316,7 +316,7 @@
     border: 1px solid #ccc;
     font-size: 16px;
     margin-top: 22px;
-    margin-right: 10px;
+    margin-right: -14px;
     padding: 4px 10px; 
     border-radius:  7px;
     color: var(--primary-color)
@@ -352,7 +352,7 @@
 
 .type-div:hover {
     cursor: pointer;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .type-img {
