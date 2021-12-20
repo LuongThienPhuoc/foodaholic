@@ -79,7 +79,7 @@ html {
     padding: 4px;
     margin: 0 10px;
     font-size: 1.6rem;
-    text-shadow:  0px 1px 10px rgb(0 0 0 / 50%);;
+    /* //text-shadow:  0px 1px 10px rgb(0 0 0 / 50%);; */
     transition: opacity ease-in-out 0.2s;
 }
 
@@ -103,7 +103,6 @@ html {
 
 .header .nav > li:hover{
     cursor: pointer;
-    opacity: 0.5;
 }
 
 .header__custome-logo{
@@ -489,7 +488,7 @@ a.header__navbar-sign-out{
 .slider__img{
     /* margin-top: 60px; */
     width: 100%;
-    height: 90vmin;
+    height: 80vmin;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -498,7 +497,7 @@ a.header__navbar-sign-out{
 
 .slider__img1 {
     width: 100%;
-    height: 90vmin;
+    height: 80vmin;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -573,6 +572,12 @@ a.header__navbar-sign-out{
     overflow: hidden;
     height: 130px;
     margin-bottom: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.cook__card:hover{
+    background-color: #dad3d349;
 }
 
 .cook__title{
@@ -613,6 +618,11 @@ a.header__navbar-sign-out{
     overflow: hidden;
     border-radius: 10px;
     width: 100%;
+    cursor: pointer;
+}
+
+.cook__blog-card:hover .cook__blog-card-address a{
+    color: #da254f9d !important;
 }
 
 .cook__blog-card-img{
@@ -826,7 +836,7 @@ a.header__navbar-sign-out{
 }
 
 .btn.bmi__btn:hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .bmi__card{
@@ -889,8 +899,9 @@ a.header__navbar-sign-out{
 }
 
 .meo_description{
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 1.3rem;
+    height: 90px;
     text-align: justify;
 }
 
@@ -959,4 +970,18 @@ a.header__navbar-sign-out{
 
 .footer__aside-info-item + .footer__aside-info-item{
     border-left: 1px solid #b7bcc8;
+}
+
+.xem-them:hover{
+    color:#da254e !important;
+}
+
+.btn-xem-them:hover{
+    color:#da254e !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.recommend:hover{
+    background-color: rgba(0, 0, 0, 0.035) !important;
+    border-radius: 8px;
 }
