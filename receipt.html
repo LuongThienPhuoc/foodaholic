@@ -3,27 +3,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receipt</title>
+    <title>Công thức</title>
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.PNG">
     <link rel="stylesheet" href="./assets/css/receipt.css">
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous">
-    </script>
-    <script> 
-        $(function(){
-            $("#header").load("partials/header.html");
-            $("#modal").load("partials/modals.html");
-            $("#footer").load("partials/footer.html");
-        });
     </script> 
 </head>
     <body>
@@ -45,12 +34,12 @@
                 <li class="nav_item header__navbar-hover element-user-js">
                     <div class="header__nav-user">
                         <img class="header_nav-user-avata"
-                            src="https://scontent.fvca1-4.fna.fbcdn.net/v/t1.6435-9/120264559_2561897020767572_9018281914969671379_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=3n8dH5GbvzUAX---gXE&_nc_ht=scontent.fvca1-4.fna&oh=e993be034244c5f41b9f70479bfdf6ed&oe=6167F8C1"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Jisoo_for_Marie_Claire_Korea_210914%281%29.jpg/1200px-Jisoo_for_Marie_Claire_Korea_210914%281%29.jpg"
                             alt="">
                         <span class="header_nav-user-name">Phước Thiện</span>
                         <ul class="header__navbar-info-user">
                             <li class="header__navbar--general">
-                                <a href="">Tài khoản</a>
+                                <a href="./account.html">Tài khoản</a>
                             </li>
                             <li class="header__navbar--general">
                                 <a href="">Địa chỉ</a>
@@ -66,375 +55,92 @@
                 </li>
             </ul>
         </div>
-        <div class="grid slider">
-            <div class="slider__img"></div>
-            <div class="slider__heading">FOODAHOLIC
-                <p class="slider__title">Chia sẻ hàng nghìn công thức và bí quyết nấu ăn ngon hàng ngày
-                </p>
-                <div class="slider__search">
-                    <input class="slider__sreach-for" placeholder="Tìm kiếm món ăn" type="text">
-                    <i class="slider__sreach-icon fas fa-search"></i>
+         
+        <div class="grid container cook">
+            <div class="cook__heading">MÓN ĂN HOT HIT</div>
+                <div class="row">
+                    <div class="col l-3 m-6 c-6">
+                        <div class="cook__card">
+                            <img class="cook__image" src="./assets/img/dia-diem/hanoi.jpg" alt="">
+                            <div class="cook__title">
+                                <p class="cook__address">Hà Nội</p>
+                                <p class="cook__index">100 món</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="cook__card">
+                            <img class="cook__image" src="./assets/img/dia-diem/hcm.jpg" alt="">
+                            <div class="cook__title">
+                                <p class="cook__address">TP.HCM</p>
+                                <p class="cook__index">112 món</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="cook__card">
+                            <img class="cook__image" src="./assets/img/dia-diem/danang.jpg" alt="">
+                            <div class="cook__title">
+                                <p class="cook__address">Đà Nẵng</p>
+                                <p class="cook__index">70 món</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="cook__card">
+                            <img class="cook__image" src="./assets/img/dia-diem/cantho.jpg" alt="">
+                            <div class="cook__title">
+                                <p class="cook__address">Cần Thơ</p>
+                                <p class="cook__index">92 món</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="cook__card">
+                            <img class="cook__image" src="./assets/img/dia-diem/thonhiky.jpg" alt="">
+                            <div class="cook__title">
+                                <p class="cook__address">Thổ Nhị Kỳ</p>
+                                <p class="cook__index">104 món</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="cook__card">
+                            <img class="cook__image" src="./assets/img/dia-diem/phap.jpg" alt="">
+                            <div class="cook__title">
+                                <p class="cook__address">Pháp</p>
+                                <p class="cook__index">132 món</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="cook__card">
+                            <img class="cook__image" src="./assets/img/dia-diem/anh.jpg" alt="">
+                            <div class="cook__title">
+                                <p class="cook__address">Anh</p>
+                                <p class="cook__index">703 món</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-6">
+                        <div class="cook__card">
+                            <img class="cook__image" src="./assets/img/dia-diem/y.jpg" alt="">
+                            <div class="cook__title">
+                                <p class="cook__address">Ý</p>
+                                <p class="cook__index">922 món</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div> 
-        <div class="container">
-            <div class="row">
-                <div class="receipt-type-title">
-                    Popular Receipt
-                </div>
-
+            <div class="grid container row">
                 <!-- Danh sách các món ăn  -->
                 <ul class="receipt-nutshell-list row">
-                    <li class="col-5 receipt-nutshell-item">
-                        <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
-                        <div class="item-description">
-                            <div class="item-heading">
-                                <div class="heading-titles">
-                                    Grilled Chiken Salad with veggies
-                                </div>
-                                <div class="heading-icon">
-                                    <i class="far fa-bookmark unmarked-icon"></i>
-                                    <i class="fas fa-bookmark marked-icon"></i>
-                                </div> 
-                            </div>
-                        <div class="tag-rating">
-                            <ul class="tag-list">
-                                <li class="tag-item"><a href="">Chicken</a></li>
-                                <li class="tag-item"><a href="">Grilled</a></li>
-                            </ul>
-                            <div class="rating">
-                                <div class="rating-star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                                <div class="rating-title">
-                                    4.8
-                                </div>
-                            </div>
+                    <div style='width: 100%;'>
+                        <div class="receipt-type-title new_one" >
+                            Popular Receipt
                         </div>
-
-                        <div class="cooking-infor">
-                            <div class="cooking-time">
-                                <i class="far fa-clock"></i>
-                                <span>55m</span>
-                            </div>
-
-                            <div class="food-ration">
-                                <i class="fas fa-cookie"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                            </div>
-
-                            <div class="food-calo">
-                                <i class="fas fa-apple-alt"></i>
-                                <span>615 Cal</span>
-                            </div>
-                        </div>
-                        
-                    </li>
-                    <li class="col-5 receipt-nutshell-item">
-                        <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
-                        <div class="item-description">
-                            <div class="item-heading">
-                                <div class="heading-titles">
-                                    Grilled Chiken Salad with veggies
-                                </div>
-                                <div class="heading-icon">
-                                    <i class="far fa-bookmark unmarked-icon"></i>
-                                    <i class="fas fa-bookmark marked-icon"></i>
-                                </div> 
-                            </div>
-                        <div class="tag-rating">
-                            <ul class="tag-list">
-                                <li class="tag-item"><a href="">Chicken</a></li>
-                                <li class="tag-item"><a href="">Grilled</a></li>
-                            </ul>
-                            <div class="rating">
-                                <div class="rating-star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                                <div class="rating-title">
-                                    4.8
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cooking-infor">
-                            <div class="cooking-time">
-                                <i class="far fa-clock"></i>
-                                <span>55m</span>
-                            </div>
-
-                            <div class="food-ration">
-                                <i class="fas fa-cookie"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                            </div>
-
-                            <div class="food-calo">
-                                <i class="fas fa-apple-alt"></i>
-                                <span>615 Cal</span>
-                            </div>
-                        </div>
-                        
-                    </li>
-                    <li class="col-5 receipt-nutshell-item">
-                        <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
-                        <div class="item-description">
-                            <div class="item-heading">
-                                <div class="heading-titles">
-                                    Grilled Chiken Salad with veggies
-                                </div>
-                                <div class="heading-icon">
-                                    <i class="far fa-bookmark unmarked-icon"></i>
-                                    <i class="fas fa-bookmark marked-icon"></i>
-                                </div> 
-                            </div>
-                        <div class="tag-rating">
-                            <ul class="tag-list">
-                                <li class="tag-item"><a href="">Chicken</a></li>
-                                <li class="tag-item"><a href="">Grilled</a></li>
-                            </ul>
-                            <div class="rating">
-                                <div class="rating-star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                                <div class="rating-title">
-                                    4.8
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cooking-infor">
-                            <div class="cooking-time">
-                                <i class="far fa-clock"></i>
-                                <span>55m</span>
-                            </div>
-
-                            <div class="food-ration">
-                                <i class="fas fa-cookie"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                            </div>
-
-                            <div class="food-calo">
-                                <i class="fas fa-apple-alt"></i>
-                                <span>615 Cal</span>
-                            </div>
-                        </div>
-                        
-                    </li>
-                    <li class="col-5 receipt-nutshell-item">
-                        <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
-                        <div class="item-description">
-                            <div class="item-heading">
-                                <div class="heading-titles">
-                                    Grilled Chiken Salad with veggies
-                                </div>
-                                <div class="heading-icon">
-                                    <i class="far fa-bookmark unmarked-icon"></i>
-                                    <i class="fas fa-bookmark marked-icon"></i>
-                                </div> 
-                            </div>
-                        <div class="tag-rating">
-                            <ul class="tag-list">
-                                <li class="tag-item"><a href="">Chicken</a></li>
-                                <li class="tag-item"><a href="">Grilled</a></li>
-                            </ul>
-                            <div class="rating">
-                                <div class="rating-star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                                <div class="rating-title">
-                                    4.8
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cooking-infor">
-                            <div class="cooking-time">
-                                <i class="far fa-clock"></i>
-                                <span>55m</span>
-                            </div>
-
-                            <div class="food-ration">
-                                <i class="fas fa-cookie"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                            </div>
-
-                            <div class="food-calo">
-                                <i class="fas fa-apple-alt"></i>
-                                <span>615 Cal</span>
-                            </div>
-                        </div>
-                        
-                    </li>
-                    <li class="col-5 receipt-nutshell-item">
-                        <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
-                        <div class="item-description">
-                            <div class="item-heading">
-                                <div class="heading-titles">
-                                    Grilled Chiken Salad with veggies
-                                </div>
-                                <div class="heading-icon">
-                                    <i class="far fa-bookmark unmarked-icon"></i>
-                                    <i class="fas fa-bookmark marked-icon"></i>
-                                </div> 
-                            </div>
-                        <div class="tag-rating">
-                            <ul class="tag-list">
-                                <li class="tag-item"><a href="">Chicken</a></li>
-                                <li class="tag-item"><a href="">Grilled</a></li>
-                            </ul>
-                            <div class="rating">
-                                <div class="rating-star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                                <div class="rating-title">
-                                    4.8
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cooking-infor">
-                            <div class="cooking-time">
-                                <i class="far fa-clock"></i>
-                                <span>55m</span>
-                            </div>
-
-                            <div class="food-ration">
-                                <i class="fas fa-cookie"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                            </div>
-
-                            <div class="food-calo">
-                                <i class="fas fa-apple-alt"></i>
-                                <span>615 Cal</span>
-                            </div>
-                        </div>
-                        
-                    </li>
-                    <li class="col-5 receipt-nutshell-item">
-                        <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
-                        <div class="item-description">
-                            <div class="item-heading">
-                                <div class="heading-titles">
-                                    Grilled Chiken Salad with veggies
-                                </div>
-                                <div class="heading-icon">
-                                    <i class="far fa-bookmark unmarked-icon"></i>
-                                    <i class="fas fa-bookmark marked-icon"></i>
-                                </div> 
-                            </div>
-                        <div class="tag-rating">
-                            <ul class="tag-list">
-                                <li class="tag-item"><a href="">Chicken</a></li>
-                                <li class="tag-item"><a href="">Grilled</a></li>
-                            </ul>
-                            <div class="rating">
-                                <div class="rating-star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                                <div class="rating-title">
-                                    4.8
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cooking-infor">
-                            <div class="cooking-time">
-                                <i class="far fa-clock"></i>
-                                <span>55m</span>
-                            </div>
-
-                            <div class="food-ration">
-                                <i class="fas fa-cookie"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                            </div>
-
-                            <div class="food-calo">
-                                <i class="fas fa-apple-alt"></i>
-                                <span>615 Cal</span>
-                            </div>
-                        </div>
-                        
-                    </li>
-                    <li class="col-5 receipt-nutshell-item">
-                        <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
-                        <div class="item-description">
-                            <div class="item-heading">
-                                <div class="heading-titles">
-                                    Grilled Chiken Salad with veggies
-                                </div>
-                                <div class="heading-icon">
-                                    <i class="far fa-bookmark unmarked-icon"></i>
-                                    <i class="fas fa-bookmark marked-icon"></i>
-                                </div> 
-                            </div>
-                        <div class="tag-rating">
-                            <ul class="tag-list">
-                                <li class="tag-item"><a href="">Chicken</a></li>
-                                <li class="tag-item"><a href="">Grilled</a></li>
-                            </ul>
-                            <div class="rating">
-                                <div class="rating-star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                                <div class="rating-title">
-                                    4.8
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cooking-infor">
-                            <div class="cooking-time">
-                                <i class="far fa-clock"></i>
-                                <span>55m</span>
-                            </div>
-
-                            <div class="food-ration">
-                                <i class="fas fa-cookie"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                                <i class="fas fa-cookie icon-disable"></i>
-                            </div>
-
-                            <div class="food-calo">
-                                <i class="fas fa-apple-alt"></i>
-                                <span>615 Cal</span>
-                            </div>
-                        </div>
-                        
-                    </li>
+                    </div>
                     <li class="col-5 receipt-nutshell-item">
                         <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
                         <div class="item-description">
@@ -926,7 +632,6 @@
                 </div>
                 <div class="mb-4" style='height: 140px;'></div>
             </div>
-        </div>
         <footer style="background-color: rgba(37, 41, 50, 1);border-top:5px solid #ffffff54; ">
             <div style="padding-top: 50px; " class="container">
                 <div class="row" style="justify-content: space-evenly;">
@@ -1034,57 +739,6 @@
 
         <div id="modal"></div>
 
-        <script>
-
-            var bookMarks = document.getElementsByClassName('heading-icon');
-            var stars = document.getElementsByClassName('fa-star');
-            // Đánh bookmark
-            for(const bookMark of bookMarks)
-            {
-                bookMark.addEventListener('click', function(event){
-                    if (bookMark.classList.contains('marked')){
-                        bookMark.classList.remove('marked');
-                    }
-                    else bookMark.classList.add('marked');
-                });
-            }
-
-            // Đánh sao
-            for(var index = 0; index < stars.length ; index++)
-            {
-                stars[index].addEventListener('click', function(event)
-                {
-                    for(var i = 0; i < stars.length ; i++)
-                    {
-                        stars[i].classList.remove('far');
-                        stars[i].classList.add('fas');
-                    }
-                    for(var i = 0; i <= index ; i++)
-                    {
-                        stars[i].classList.add('far');
-                    }
-                });
-            }
-            var header = document.querySelector('.header');
-
-            window.onscroll = function(){
-                console.log(document.body.scrollTop);
-                if (document.body.scrollTop > 100) {
-                    header.classList.add('header__color');
-                } else {
-                    header.classList.remove('header__color');
-                }
-            }
-
-            
-
-            allReceipts = document.querySelectorAll('.receipt-nutshell-item');
-            for(var i = 0 ; i < allReceipts.length ; i++)
-            {
-                allReceipts[i].onclick = () => {
-                    document.querySelector('.to-receipt-detail').click();
-                }
-            }
-        </script>
+        
     </body>
 </html>

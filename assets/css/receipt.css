@@ -51,7 +51,6 @@
     display: flex;
     list-style: none;
     height: 280px;
-    margin: 10px;
     flex-direction: column;
     transition: transform ease-in 0.25s;
 }
@@ -121,7 +120,7 @@
     margin-top: 12px;
     display: flex; 
     justify-content: space-between;
-    align-items: center;
+
 }
 
 .receipt-nutshell-item .tag-rating .tag-list{
@@ -178,7 +177,7 @@
 
 .receipt-nutshell-item .cooking-infor .cooking-time {
     display: inline-flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .receipt-nutshell-item .cooking-infor .cooking-time i{
@@ -209,7 +208,7 @@
 
 .receipt-nutshell-item .cooking-infor .food-calo {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .receipt-nutshell-item .cooking-infor .food-calo i{
@@ -504,4 +503,13 @@
     padding-top: 0px;
     margin-top: -20px;
 }
+
+.cook__heading.new_one {
+    width: 100%;
+    color: #3a393a;
+    font-size: 3rem;
+}
+
+
+
 

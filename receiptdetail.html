@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receipt</title>
+    <title>Công thức</title>
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,13 +18,6 @@
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
     </script>
-    <script> 
-        $(function(){
-            $("#header").load("partials/header.html");
-            $("#modal").load("partials/modals.html");
-            $("#footer").load("partials/footer.html");
-        });
-    </script> 
 </head>
     <body>
         <div class="header grid">
@@ -45,12 +38,12 @@
                 <li class="nav_item header__navbar-hover element-user-js">
                     <div class="header__nav-user">
                         <img class="header_nav-user-avata"
-                            src="https://scontent.fvca1-4.fna.fbcdn.net/v/t1.6435-9/120264559_2561897020767572_9018281914969671379_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=3n8dH5GbvzUAX---gXE&_nc_ht=scontent.fvca1-4.fna&oh=e993be034244c5f41b9f70479bfdf6ed&oe=6167F8C1"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Jisoo_for_Marie_Claire_Korea_210914%281%29.jpg/1200px-Jisoo_for_Marie_Claire_Korea_210914%281%29.jpg"
                             alt="">
                         <span class="header_nav-user-name">Phước Thiện</span>
                         <ul class="header__navbar-info-user">
                             <li class="header__navbar--general">
-                                <a href="">Tài khoản</a>
+                                <a href="./account.html">Tài khoản</a>
                             </li>
                             <li class="header__navbar--general">
                                 <a href="">Địa chỉ</a>
@@ -66,7 +59,7 @@
                 </li>
             </ul>
         </div>
-        <div class="grid slider">
+        <!-- <div class="grid slider">
             <div class="slider__img"></div>
             <div class="slider__heading">FOODAHOLIC
                 <p class="slider__title">Chia sẻ hàng nghìn công thức và bí quyết nấu ăn ngon hàng ngày
@@ -76,16 +69,17 @@
                     <i class="slider__sreach-icon fas fa-search"></i>
                 </div>
             </div>
-        </div> 
+        </div>  -->
         <div class="container">
             <div class="row">
                 <img class="receipt-fake" style='width: 100%;'src="./assets/img/food-avatar/food-receipt.png" alt="">
-                <div class="receipt-type-title">
-                    Popular Receipt
-                </div>
+                
 
                 <!-- Danh sách các món ăn  -->
                 <ul class="receipt-nutshell-list row">
+                    <div class="receipt-type-title">
+                        Popular Receipt
+                    </div>
                     <li class="col-5 receipt-nutshell-item">
                         <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
                         <div class="item-description">
@@ -1085,5 +1079,6 @@
                 }
             }
         </script>
+        <script src="./main.js"></script>
     </body>
 </html>

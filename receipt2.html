@@ -1,0 +1,765 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công thức</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/receipt.css">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <div class="header grid">
+        <div class="header__name-logo">
+            <a class="header__custome-logo" href="/">
+                <img class="header__logo" src="./assets/img/logo.PNG" alt="">
+                <div class="header__name">FOODAHOLIC</div>
+            </a>
+        </div>
+        <ul class="nav">
+            <li class="nav_item nav_item-line active"><a href="./index.html"></a>Trang chủ</li>
+            <li class="nav_item nav_item-line"><a href="/receipt.html">Công thức</a></li>
+            <li class="nav_item nav_item-line"><a href="./BMI.html">BMI</a></li>
+            <li class="nav_item nav_item-line"><a href="./blog.html">Blog</a></li>
+            <li class="nav_item nav_item-line"><a href="./meo.html">Mẹo</a></li>
+            <li class="nav_item nav_item-line"><a href="./gia-san-pham.html">Giá thực phẩm</a></li>
+            <li class="nav_item nav-item-sign-up js-log-in"><a href=""></a>Đăng nhập</li>
+            <li class="nav_item header__navbar-hover element-user-js">
+                <div class="header__nav-user">
+                    <img class="header_nav-user-avata"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Jisoo_for_Marie_Claire_Korea_210914%281%29.jpg/1200px-Jisoo_for_Marie_Claire_Korea_210914%281%29.jpg"
+                        alt="">
+                    <span class="header_nav-user-name">Phước Thiện</span>
+                    <ul class="header__navbar-info-user">
+                        <li class="header__navbar--general">
+                            <a href="./account.html">Tài khoản</a>
+                        </li>
+                        <li class="header__navbar--general">
+                            <a href="">Địa chỉ</a>
+                        </li>
+                        <li class="header__navbar--general">
+                            <a href="">Blog</a>
+                        </li>
+                        <li class="header__navbar--general header__navbar-border-top js-log-out">
+                            <a class="header__navbar-sign-out" href="">Đăng xuất</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="grid slider">
+        <div class="slider__img"></div>
+        <div class="slider__heading" style='width: 100%;'>FOODAHOLIC
+            <p class="slider__title" style='width: 100%,'>Chia sẻ hàng nghìn công thức và bí quyết nấu ăn ngon hàng ngày
+            </p>
+            <div class="slider__search" style='width:60%;margin-left: 200px'>
+                <input class="slider__sreach-for" placeholder="Tìm kiếm món ăn" type="text">
+                <a href="./receipt.html">
+                    <i class="slider__sreach-icon fas fa-search"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="grid wide blog">
+            <div class="cook__heading new_one">Công thức nấu ăn hot</div>
+            <div class="row">
+                <!-- Gà salad -->
+                <li class="col l-3 m-6 receipt-nutshell-item">
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
+                    <div class="item-description">
+                        <div class="item-heading">
+                            <div class="heading-titles">
+                                Gà salad với rau
+                            </div>
+                            <div class="heading-icon">
+                                <i class="far fa-bookmark unmarked-icon"></i>
+                                <i class="fas fa-bookmark marked-icon"></i>
+                            </div> 
+                        </div>
+                    <div class="tag-rating">
+                        <ul class="tag-list">
+                            <li class="tag-item"><a href="">Gà</a></li>
+                            <li class="tag-item"><a href="">Nướng</a></li>
+                        </ul>
+                        <div class="rating">
+                            <div class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-title">
+                                4.8
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cooking-infor">
+                        <div class="cooking-time">
+                            <i class="far fa-clock"></i>
+                            <span>55m</span>
+                        </div>
+
+                        <div class="food-ration">
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                        </div>
+
+                        <div class="food-calo">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>615 Cal</span>
+                        </div>
+                    </div>
+                    
+                </li>
+                <!-- Bò bít tết  -->
+                <li class="col l-3 m-6 receipt-nutshell-item">
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/bobitet.jpg)"></div>
+                    <div class="item-description">
+                        <div class="item-heading">
+                            <div class="heading-titles">
+                                Bò bít tết với khoai tây
+                            </div>
+                            <div class="heading-icon">
+                                <i class="far fa-bookmark unmarked-icon"></i>
+                                <i class="fas fa-bookmark marked-icon"></i>
+                            </div> 
+                        </div>
+                    <div class="tag-rating">
+                        <ul class="tag-list">
+                            <li class="tag-item"><a href="">Bò</a></li>
+                            <li class="tag-item"><a href="">Bít tết</a></li>
+                        </ul>
+                        <div class="rating">
+                            <div class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-title">
+                                4.5
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cooking-infor">
+                        <div class="cooking-time">
+                            <i class="far fa-clock"></i>
+                            <span>35m</span>
+                        </div>
+
+                        <div class="food-ration">
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                        </div>
+
+                        <div class="food-calo">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>1615 Cal</span>
+                        </div>
+                    </div>
+                    
+                </li>  
+                <!-- Cơm chiên  -->
+                <li class="col l-3 m-6 receipt-nutshell-item">
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/comchien.jpg)"></div>
+                    <div class="item-description">
+                        <div class="item-heading">
+                            <div class="heading-titles">
+                                Cơm chiên áp chảo
+                            </div>
+                            <div class="heading-icon">
+                                <i class="far fa-bookmark unmarked-icon"></i>
+                                <i class="fas fa-bookmark marked-icon"></i>
+                            </div> 
+                        </div>
+                    <div class="tag-rating">
+                        <ul class="tag-list">
+                            <li class="tag-item"><a href="">Cơm</a></li>
+                            <li class="tag-item"><a href="">Chiên</a></li>
+                        </ul>
+                        <div class="rating">
+                            <div class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-title">
+                                4.0
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cooking-infor">
+                        <div class="cooking-time">
+                            <i class="far fa-clock"></i>
+                            <span>15m</span>
+                        </div>
+
+                        <div class="food-ration">
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                        </div>
+
+                        <div class="food-calo">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>415 Cal</span>
+                        </div>
+                    </div>
+                    
+                </li>  
+                <!-- Cá lóc kho tộ -->
+                <li class="col l-3 m-6 receipt-nutshell-item">
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/caloc.jpg)"></div>
+                    <div class="item-description">
+                        <div class="item-heading">
+                            <div class="heading-titles">
+                                Cá lóc kho tộ
+                            </div>
+                            <div class="heading-icon">
+                                <i class="far fa-bookmark unmarked-icon"></i>
+                                <i class="fas fa-bookmark marked-icon"></i>
+                            </div> 
+                        </div>
+                    <div class="tag-rating">
+                        <ul class="tag-list">
+                            <li class="tag-item"><a href="">Cá lóc</a></li>
+                            <li class="tag-item"><a href="">Kho</a></li>
+                        </ul>
+                        <div class="rating">
+                            <div class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-title">
+                                4.8
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cooking-infor">
+                        <div class="cooking-time">
+                            <i class="far fa-clock"></i>
+                            <span>55m</span>
+                        </div>
+
+                        <div class="food-ration">
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie"></i>
+                        </div>
+
+                        <div class="food-calo">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>715 Cal</span>
+                        </div>
+                    </div>
+                    
+                </li>  
+                
+                <!-- Bò bít tết  -->
+                <li class="col l-3 m-6 receipt-nutshell-item">
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/bobitet.jpg)"></div>
+                    <div class="item-description">
+                        <div class="item-heading">
+                            <div class="heading-titles">
+                                Bò bít tết với khoai tây
+                            </div>
+                            <div class="heading-icon">
+                                <i class="far fa-bookmark unmarked-icon"></i>
+                                <i class="fas fa-bookmark marked-icon"></i>
+                            </div> 
+                        </div>
+                    <div class="tag-rating">
+                        <ul class="tag-list">
+                            <li class="tag-item"><a href="">Bò</a></li>
+                            <li class="tag-item"><a href="">Bít tết</a></li>
+                        </ul>
+                        <div class="rating">
+                            <div class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-title">
+                                4.5
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cooking-infor">
+                        <div class="cooking-time">
+                            <i class="far fa-clock"></i>
+                            <span>35m</span>
+                        </div>
+
+                        <div class="food-ration">
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                        </div>
+
+                        <div class="food-calo">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>1615 Cal</span>
+                        </div>
+                    </div>
+                    
+                </li>  
+                
+                <!-- Cá lóc kho tộ -->
+                <li class="col l-3 m-6 receipt-nutshell-item">
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/caloc.jpg)"></div>
+                    <div class="item-description">
+                        <div class="item-heading">
+                            <div class="heading-titles">
+                                Cá lóc kho tộ
+                            </div>
+                            <div class="heading-icon">
+                                <i class="far fa-bookmark unmarked-icon"></i>
+                                <i class="fas fa-bookmark marked-icon"></i>
+                            </div> 
+                        </div>
+                    <div class="tag-rating">
+                        <ul class="tag-list">
+                            <li class="tag-item"><a href="">Cá lóc</a></li>
+                            <li class="tag-item"><a href="">Kho</a></li>
+                        </ul>
+                        <div class="rating">
+                            <div class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-title">
+                                4.8
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cooking-infor">
+                        <div class="cooking-time">
+                            <i class="far fa-clock"></i>
+                            <span>55m</span>
+                        </div>
+
+                        <div class="food-ration">
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie"></i>
+                        </div>
+
+                        <div class="food-calo">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>715 Cal</span>
+                        </div>
+                    </div>
+                    
+                </li> 
+                <!-- Gà salad -->
+                <li class="col l-3 m-6 receipt-nutshell-item">
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/chicken-salad.jpg)"></div>
+                    <div class="item-description">
+                        <div class="item-heading">
+                            <div class="heading-titles">
+                                Gà salad với rau
+                            </div>
+                            <div class="heading-icon">
+                                <i class="far fa-bookmark unmarked-icon"></i>
+                                <i class="fas fa-bookmark marked-icon"></i>
+                            </div> 
+                        </div>
+                    <div class="tag-rating">
+                        <ul class="tag-list">
+                            <li class="tag-item"><a href="">Gà</a></li>
+                            <li class="tag-item"><a href="">Nướng</a></li>
+                        </ul>
+                        <div class="rating">
+                            <div class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-title">
+                                4.8
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cooking-infor">
+                        <div class="cooking-time">
+                            <i class="far fa-clock"></i>
+                            <span>55m</span>
+                        </div>
+
+                        <div class="food-ration">
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                        </div>
+
+                        <div class="food-calo">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>615 Cal</span>
+                        </div>
+                    </div>
+                    
+                </li> 
+                <!-- Cơm chiên  -->
+                <li class="col l-3 m-6 receipt-nutshell-item">
+                    <div class="item-img" style="background-image: url(./assets/img/food-avatar/comchien.jpg)"></div>
+                    <div class="item-description">
+                        <div class="item-heading">
+                            <div class="heading-titles">
+                                Cơm chiên áp chảo
+                            </div>
+                            <div class="heading-icon">
+                                <i class="far fa-bookmark unmarked-icon"></i>
+                                <i class="fas fa-bookmark marked-icon"></i>
+                            </div> 
+                        </div>
+                    <div class="tag-rating">
+                        <ul class="tag-list">
+                            <li class="tag-item"><a href="">Cơm</a></li>
+                            <li class="tag-item"><a href="">Chiên</a></li>
+                        </ul>
+                        <div class="rating">
+                            <div class="rating-star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-title">
+                                4.0
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cooking-infor">
+                        <div class="cooking-time">
+                            <i class="far fa-clock"></i>
+                            <span>15m</span>
+                        </div>
+
+                        <div class="food-ration">
+                            <i class="fas fa-cookie"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                            <i class="fas fa-cookie icon-disable"></i>
+                        </div>
+
+                        <div class="food-calo">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>415 Cal</span>
+                        </div>
+                    </div>
+                    
+                </li>  
+            </div>
+            <div class="row blog__sign-in">
+                <div class="blog_sign-in-left">
+                    <h1 class="blog__sign-in-left-title">Blog chia sẽ thức ăn ngon và lành mạnh</h1>
+                    <p class="blog__sign-in-left-description">“Ăn Gì Review Nấy” chia sẻ ngay trên Blog để trải nghiệm
+                        ăn
+                        uống được tốt hơn. Ngoài ra, bạn còn thoải mái học được nhiều món ăn ngon</p>
+                    <a href="./blog.html" style="color: black;" class="btn blog__btn">Tìm hiểu ngay</a>
+                </div>
+                <div class="blog_sign-in-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid container bmi">
+        <div class="cook__heading">BMI - Chỉ số khối cơ thể</div>
+        <div class="row">
+            <div class="col l-6">
+                <div class="bmi__img"></div>
+            </div>
+            <div class="col l-6">
+                <div class="bmi__card">
+                    <div style="font-size: 2.4rem;" class="bmi__title">DỤNG CỤ TÍNH CHỈ SỐ KHỐI CƠ THỂ BMI</div>
+                    <div style="font-size: 1.6rem;" class="bmi__description">Chỉ số khối cơ thể hay còn gọi là BMI được
+                        sử dụng để xác định xem bạn
+                        có đang ở phạm vi cân nặng khỏe mạnh so với chiều cao của bạn hay không. Hãy cùng tìm hiểu thêm
+                        về chỉ số khối cơ thể của bạn.</div>
+                    <a href="./BMI.html" style="color: black;" class="btn bmi__btn">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="meo">
+        <div class="grid container">
+            <div class="cook__heading">Mẹo trong cuộc sống</div>
+            <div class="row">
+                <div class="col l-6 card__meo">
+                    <img src="./assets/img/meo/toi.jpg" alt="" class="meo__img">
+                    <div class="meo__container">
+                        <div class="meo__title">Mẹo bóc tỏi nhanh chóng</div>
+                        <div class="meo_description">Để bóc tỏi nhanh mà không phải bị cay mắt bạn có thể áp dụng cách
+                            bóc tỏi bằng lò vi sóng. Bạn chỉ cần bỏ củ tỏi vào lò vi sóng, bật chế độ hâm nóng ở nhiệt
+                            độ cao khoảng 10 giây.</div>
+                        <a href="/meo/meo-boc-toi-nhanh-chong.html"
+                            style="font-size: 1.4rem;background-color: rgba(37, 41, 50, 1);color:white;margin-top:10px; padding:5px 15px 5px 15px"
+                            class="btn">Đọc</a>
+                    </div>
+                </div>
+
+                <div class="col l-6 card__meo">
+                    <img src="./assets/img/meo/chao.jpg" alt="" class="meo__img">
+                    <div class="meo__container">
+                        <div class="meo__title">Chọn chảo phù hợp</div>
+                        <div class="meo_description">Cũng nên những chiếc chảo chống dính một năm một lần vì lớp phủ có
+                            thể bị mòn gây hại cho sức khỏe.</div>
+                        <a href="/meo/meo-boc-toi-nhanh-chong.html"
+                            style="font-size: 1.4rem;background-color: rgba(37, 41, 50, 1);color:white;margin-top:10px; padding:5px 15px 5px 15px"
+                            class="btn">Đọc</a>
+                    </div>
+                </div>
+                <div class="col l-6 card__meo">
+                    <img src="./assets/img/meo/bo.jpg" alt="" class="meo__img">
+                    <div class="meo__container">
+                        <div class="meo__title">Úp ngược hũ bơ để dễ lấy hơn</div>
+                        <div class="meo_description"> Khi lật úp, phần bơ sẽ được dồn lên phần miệng hũ bạn sẽ dễ dàng
+                            lấy ra mà không quá tốn nhiều thời gian.
+                        </div>
+                        <a href="/meo/meo-boc-toi-nhanh-chong.html"
+                            style="font-size: 1.4rem;background-color: rgba(37, 41, 50, 1);color:white;margin-top:10px; padding:5px 15px 5px 15px"
+                            class="btn">Đọc</a>
+                    </div>
+                </div>
+                <div class="col l-6 card__meo">
+                    <img src="./assets/img/meo/chaithuytinh.png" alt="" class="meo__img">
+                    <div class="meo__container">
+                        <div class="meo__title">Mẹo mở nắp chai lọ bị kẹt bằng nước nóng</div>
+                        <div class="meo_description">Có rất nhiều loại chai lọ chứa chất lỏng có nắp rất khó mở khi mới
+                            mua về hoặc khi vặn nắp quá kỹ.</div>
+                        <a href="/meo/meo-boc-toi-nhanh-chong.html"
+                            style="font-size: 1.4rem;background-color: rgba(37, 41, 50, 1);color:white;margin-top:10px; padding:5px 15px 5px 15px"
+                            class="btn">Đọc</a>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex;justify-content: end;">
+                <a href="/meo.html" style="margin-bottom: 20px;font-size: 1.7rem; padding: 5px 20px 5px 20px;background-color: rgba(37, 41, 50, 1); outline: none; border: none;"
+                    class="btn btn-primary">
+                    Xem tất cả
+                    <i style="padding-left:5px" class="fas fa-arrow-right"></i>
+                    <!-- //<i style="padding-left: 10px;transform: translateY(-10%); " class="fas fa-sort-down"></i> -->
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer style="background-color: rgba(37, 41, 50, 1);border-top:5px solid #ffffff54;">
+        <div style="padding-top: 50px; " class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">HƯỚNG DẪN MUA HÀNG</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Blog</a>
+                        <a class="footer-the-a" href="#">Câu hỏi thường gặp</a>
+                        <a class="footer-the-a" href="#">Phương thức thanh toán</a>
+                        <a class="footer-the-a" href="#">Phương thức vận chuyển</a>
+                        <a class="footer-the-a" href="#">Giỏ hàng của tôi</a>
+                        <a class="footer-the-a" href="#">Giấy phép</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">DÀNH CHO BẠN</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Tài khoản của bạn</a>
+                        <a class="footer-the-a" href="#">Thông tin</a>
+                        <a class="footer-the-a" href="#">Địa chỉ</a>
+                        <a class="footer-the-a" href="#">Khuyến mãi</a>
+                        <a class="footer-the-a" href="#">Lịch sử mua hàng</a>
+                        <a class="footer-the-a" href="#">Theo dõi đơn hàng</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px; font-size: 1.5rem;">Thông tin</h5>
+                    <div style="display: flex;flex-direction: column;">
+                        <a class="footer-the-a" href="#">Bản đồ trang</a>
+                        <a class="footer-the-a" href="#">Từ khóa tìm kiếm</a>
+                        <a class="footer-the-a" href="#">Tìm kiểm nâng cao</a>
+                        <a class="footer-the-a" href="#">Về chúng tôi</a>
+                        <a class="footer-the-a" href="#">Liên hệ với chúng tôi</a>
+                        <a class="footer-the-a" href="/cart/return-policy">Chính sách đổi trả</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 style="color: #ffba00;margin-bottom: 20px ; font-size: 1.5rem;">Liên hệ chúng tôi</h5>
+                    <div style="display: flex;flex-direction: column; ">
+                        <div style="display: flex;margin-bottom: 20px;align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">University of Information Technology</p>
+                        </div>
+                        <div style="display: flex;margin-bottom: 20px;  align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-phone"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">+123456789</p>
+                        </div>
+                        <div style="display: flex;margin-bottom: 20px; align-items: center;">
+                            <div class="customize-lien-he-chung-toi">
+                                <i style="color: #ffba00; font-size:1.2rem" class="fas fa-envelope"></i>
+                            </div>
+                            <p style="color:#b7bcc8; padding: 0;margin:0">foodaholic@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            style="color:#b7bcc8; border-top:1px solid #ffffff54; padding-top: 40px; margin-top: 20px; padding-bottom: 50px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer__social">
+                            <div class="footer__social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fab fa-spotify"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer__titele">© 2021 FOODAHOLIC | ALL RIGHTS RESERVED.</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="footer__aside-info">
+                            <span class="footer__aside-info-item">Contact us</span>
+                            <span class="footer__aside-info-item">19522092</span>
+                            <span class="footer__aside-info-item">19522052</span>
+                            <span class="footer__aside-info-item">19522006</span>
+                            <span class="footer__aside-info-item">19522055</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Module -->
+    <div class="modal">
+        <div class="modal__overlay">
+        </div>
+        <div class="modal__body">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script>
+
+            var bookMarks = document.getElementsByClassName('heading-icon');
+            var stars = document.getElementsByClassName('fa-star');
+            // Đánh bookmark
+            for(const bookMark of bookMarks)
+            {
+                bookMark.addEventListener('click', function(event){
+                    if (bookMark.classList.contains('marked')){
+                        bookMark.classList.remove('marked');
+                    }
+                    else bookMark.classList.add('marked');
+                });
+            }
+
+            // Đánh sao
+            for(var index = 0; index < stars.length ; index++)
+            {
+                stars[index].addEventListener('click', function(event)
+                {
+                    for(var i = 0; i < stars.length ; i++)
+                    {
+                        stars[i].classList.remove('far');
+                        stars[i].classList.add('fas');
+                    }
+                    for(var i = 0; i <= index ; i++)
+                    {
+                        stars[i].classList.add('far');
+                    }
+                });
+            }
+            var header = document.querySelector('.header');
+
+            window.onscroll = function(){
+                console.log(document.body.scrollTop);
+                if (document.body.scrollTop > 100) {
+                    header.classList.add('header__color');
+                } else {
+                    header.classList.remove('header__color');
+                }
+            }
+
+            
+
+            allReceipts = document.querySelectorAll('.receipt-nutshell-item');
+            for(var i = 0 ; i < allReceipts.length ; i++)
+            {
+                allReceipts[i].onclick = () => {
+                    document.querySelector('.to-receipt-detail').click();
+                }
+            }
+        </script>
+        <script src="./main.js"></script>
+</body>
+
+</html>
